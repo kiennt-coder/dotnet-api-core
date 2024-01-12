@@ -1,0 +1,11 @@
+###
+https://localhost:7170/v1/Users
+
+
+###
+PATCH https://localhost:7170/v1/Permissions/656ca3d283003da40b40c807
+Content-Type: application/json
+
+{
+  "parentId": "65736fcd0e6f5da20f875bac"
+}

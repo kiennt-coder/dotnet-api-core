@@ -1,0 +1,202 @@
+2023-12-14 00:29:49.997 +07:00 [INF] User profile is available. Using '/Users/kiennt/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2023-12-14 00:29:50.430 +07:00 [INF] Now listening on: https://localhost:7170
+2023-12-14 00:29:50.431 +07:00 [INF] Now listening on: http://localhost:5020
+2023-12-14 00:29:50.434 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-14 00:29:50.434 +07:00 [INF] Hosting environment: Development
+2023-12-14 00:29:50.434 +07:00 [INF] Content root path: /Users/kiennt/Documents/projects/blog/BlogApi
+2023-12-14 00:29:50.829 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:7170/swagger/index.html - -
+2023-12-14 00:29:51.000 +07:00 [INF] Request finished HTTP/1.1 GET https://localhost:7170/swagger/index.html - - - 200 - text/html;charset=utf-8 173.7132ms
+2023-12-14 00:29:51.362 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:7170/swagger/v1/swagger.json - -
+2023-12-14 00:29:51.541 +07:00 [INF] Request finished HTTP/1.1 GET https://localhost:7170/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 178.6653ms
+2023-12-14 00:29:58.201 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:7170/v1/Permissions - -
+2023-12-14 00:29:58.343 +07:00 [INF] Executing endpoint 'BlogApi.Controllers.PermissionsController.GetPermissions (BlogApi)'
+2023-12-14 00:29:58.375 +07:00 [INF] Route matched with {action = "GetPermissions", controller = "Permissions"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[BlogApi.Models.Response.BaseResponse]] GetPermissions(BlogApi.Models.Permission.PermissionFilter) on controller BlogApi.Controllers.PermissionsController (BlogApi).
+2023-12-14 00:29:58.637 +07:00 [INF] Executing OkObjectResult, writing value of type 'BlogApi.Models.Response.BaseResponse'.
+2023-12-14 00:29:58.673 +07:00 [INF] Executed action BlogApi.Controllers.PermissionsController.GetPermissions (BlogApi) in 293.3797ms
+2023-12-14 00:29:58.676 +07:00 [INF] Executed endpoint 'BlogApi.Controllers.PermissionsController.GetPermissions (BlogApi)'
+2023-12-14 00:29:58.680 +07:00 [INF] HTTP GET /v1/Permissions responded 200 in 473.7136 ms
+2023-12-14 00:29:58.683 +07:00 [INF] Request finished HTTP/1.1 GET https://localhost:7170/v1/Permissions - - - 200 - application/json;+charset=utf-8 480.8453ms
+2023-12-14 00:30:09.084 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:7170/v1/Permissions?Name=vai%20tr%C3%B2 - -
+2023-12-14 00:30:09.088 +07:00 [INF] Executing endpoint 'BlogApi.Controllers.PermissionsController.GetPermissions (BlogApi)'
+2023-12-14 00:30:09.089 +07:00 [INF] Route matched with {action = "GetPermissions", controller = "Permissions"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[BlogApi.Models.Response.BaseResponse]] GetPermissions(BlogApi.Models.Permission.PermissionFilter) on controller BlogApi.Controllers.PermissionsController (BlogApi).
+2023-12-14 00:30:09.112 +07:00 [INF] Executing OkObjectResult, writing value of type 'BlogApi.Models.Response.BaseResponse'.
+2023-12-14 00:30:09.113 +07:00 [INF] Executed action BlogApi.Controllers.PermissionsController.GetPermissions (BlogApi) in 24.4883ms
+2023-12-14 00:30:09.113 +07:00 [INF] Executed endpoint 'BlogApi.Controllers.PermissionsController.GetPermissions (BlogApi)'
+2023-12-14 00:30:09.114 +07:00 [INF] HTTP GET /v1/Permissions responded 200 in 29.1671 ms
+2023-12-14 00:30:09.114 +07:00 [INF] Request finished HTTP/1.1 GET https://localhost:7170/v1/Permissions?Name=vai%20tr%C3%B2 - - - 200 - application/json;+charset=utf-8 29.6791ms
+2023-12-14 00:30:30.879 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:7170/v1/Permissions?Name=vai%20tr%C3%B2&ParentId=null - -
+2023-12-14 00:30:30.910 +07:00 [INF] Executing endpoint 'BlogApi.Controllers.PermissionsController.GetPermissions (BlogApi)'
+2023-12-14 00:30:30.911 +07:00 [INF] Route matched with {action = "GetPermissions", controller = "Permissions"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[BlogApi.Models.Response.BaseResponse]] GetPermissions(BlogApi.Models.Permission.PermissionFilter) on controller BlogApi.Controllers.PermissionsController (BlogApi).
+2023-12-14 00:30:31.116 +07:00 [INF] Executing OkObjectResult, writing value of type 'BlogApi.Models.Response.BaseResponse'.
+2023-12-14 00:30:31.117 +07:00 [INF] Executed action BlogApi.Controllers.PermissionsController.GetPermissions (BlogApi) in 206.1183ms
+2023-12-14 00:30:31.117 +07:00 [INF] Executed endpoint 'BlogApi.Controllers.PermissionsController.GetPermissions (BlogApi)'
+2023-12-14 00:30:31.117 +07:00 [INF] HTTP GET /v1/Permissions responded 200 in 209.7193 ms
+2023-12-14 00:30:31.118 +07:00 [INF] Request finished HTTP/1.1 GET https://localhost:7170/v1/Permissions?Name=vai%20tr%C3%B2&ParentId=null - - - 200 - application/json;+charset=utf-8 238.5124ms
+2023-12-14 00:30:36.290 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:7170/v1/Permissions?Name=vai%20tr%C3%B2&ParentId=nulll - -
+2023-12-14 00:30:36.291 +07:00 [INF] Executing endpoint 'BlogApi.Controllers.PermissionsController.GetPermissions (BlogApi)'
+2023-12-14 00:30:36.291 +07:00 [INF] Route matched with {action = "GetPermissions", controller = "Permissions"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[BlogApi.Models.Response.BaseResponse]] GetPermissions(BlogApi.Models.Permission.PermissionFilter) on controller BlogApi.Controllers.PermissionsController (BlogApi).
+2023-12-14 00:30:36.455 +07:00 [INF] Executing ObjectResult, writing value of type 'BlogApi.Models.Response.BaseResponse'.
+2023-12-14 00:30:36.455 +07:00 [INF] Executed action BlogApi.Controllers.PermissionsController.GetPermissions (BlogApi) in 164.1639ms
+2023-12-14 00:30:36.455 +07:00 [INF] Executed endpoint 'BlogApi.Controllers.PermissionsController.GetPermissions (BlogApi)'
+2023-12-14 00:30:36.455 +07:00 [ERR] HTTP GET /v1/Permissions responded 500 in 164.7256 ms
+2023-12-14 00:30:36.455 +07:00 [INF] Request finished HTTP/1.1 GET https://localhost:7170/v1/Permissions?Name=vai%20tr%C3%B2&ParentId=nulll - - - 500 - application/json;+charset=utf-8 165.0738ms
+2023-12-14 00:30:41.891 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:7170/v1/Permissions?Name=vai%20tr%C3%B2&ParentId=null - -
+2023-12-14 00:30:41.891 +07:00 [INF] Executing endpoint 'BlogApi.Controllers.PermissionsController.GetPermissions (BlogApi)'
+2023-12-14 00:30:41.891 +07:00 [INF] Route matched with {action = "GetPermissions", controller = "Permissions"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[BlogApi.Models.Response.BaseResponse]] GetPermissions(BlogApi.Models.Permission.PermissionFilter) on controller BlogApi.Controllers.PermissionsController (BlogApi).
+2023-12-14 00:30:41.910 +07:00 [INF] Executing OkObjectResult, writing value of type 'BlogApi.Models.Response.BaseResponse'.
+2023-12-14 00:30:41.910 +07:00 [INF] Executed action BlogApi.Controllers.PermissionsController.GetPermissions (BlogApi) in 19.1503ms
+2023-12-14 00:30:41.911 +07:00 [INF] Executed endpoint 'BlogApi.Controllers.PermissionsController.GetPermissions (BlogApi)'
+2023-12-14 00:30:41.911 +07:00 [INF] HTTP GET /v1/Permissions responded 200 in 19.6798 ms
+2023-12-14 00:30:41.911 +07:00 [INF] Request finished HTTP/1.1 GET https://localhost:7170/v1/Permissions?Name=vai%20tr%C3%B2&ParentId=null - - - 200 - application/json;+charset=utf-8 20.1034ms
+2023-12-14 00:30:50.667 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:7170/v1/Permissions?Name=vai%20tr%C3%B2&ParentId=null&Page=1&PageSize=1 - -
+2023-12-14 00:30:50.668 +07:00 [INF] Executing endpoint 'BlogApi.Controllers.PermissionsController.GetPermissions (BlogApi)'
+2023-12-14 00:30:50.668 +07:00 [INF] Route matched with {action = "GetPermissions", controller = "Permissions"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[BlogApi.Models.Response.BaseResponse]] GetPermissions(BlogApi.Models.Permission.PermissionFilter) on controller BlogApi.Controllers.PermissionsController (BlogApi).
+2023-12-14 00:30:50.791 +07:00 [INF] Executing OkObjectResult, writing value of type 'BlogApi.Models.Response.BaseResponse'.
+2023-12-14 00:30:50.816 +07:00 [INF] Executed action BlogApi.Controllers.PermissionsController.GetPermissions (BlogApi) in 148.3173ms
+2023-12-14 00:30:50.816 +07:00 [INF] Executed endpoint 'BlogApi.Controllers.PermissionsController.GetPermissions (BlogApi)'
+2023-12-14 00:30:50.817 +07:00 [INF] HTTP GET /v1/Permissions responded 200 in 149.0245 ms
+2023-12-14 00:30:50.817 +07:00 [INF] Request finished HTTP/1.1 GET https://localhost:7170/v1/Permissions?Name=vai%20tr%C3%B2&ParentId=null&Page=1&PageSize=1 - - - 200 - application/json;+charset=utf-8 149.5680ms
+2023-12-14 00:30:56.034 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:7170/v1/Permissions?Name=vai%20tr%C3%B2&ParentId=null&Page=1&PageSize=2 - -
+2023-12-14 00:30:56.035 +07:00 [INF] Executing endpoint 'BlogApi.Controllers.PermissionsController.GetPermissions (BlogApi)'
+2023-12-14 00:30:56.035 +07:00 [INF] Route matched with {action = "GetPermissions", controller = "Permissions"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[BlogApi.Models.Response.BaseResponse]] GetPermissions(BlogApi.Models.Permission.PermissionFilter) on controller BlogApi.Controllers.PermissionsController (BlogApi).
+2023-12-14 00:30:56.143 +07:00 [INF] Executing OkObjectResult, writing value of type 'BlogApi.Models.Response.BaseResponse'.
+2023-12-14 00:30:56.144 +07:00 [INF] Executed action BlogApi.Controllers.PermissionsController.GetPermissions (BlogApi) in 108.7138ms
+2023-12-14 00:30:56.144 +07:00 [INF] Executed endpoint 'BlogApi.Controllers.PermissionsController.GetPermissions (BlogApi)'
+2023-12-14 00:30:56.144 +07:00 [INF] HTTP GET /v1/Permissions responded 200 in 109.2349 ms
+2023-12-14 00:30:56.144 +07:00 [INF] Request finished HTTP/1.1 GET https://localhost:7170/v1/Permissions?Name=vai%20tr%C3%B2&ParentId=null&Page=1&PageSize=2 - - - 200 - application/json;+charset=utf-8 109.9879ms
+2023-12-14 00:31:03.755 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:7170/v1/Permissions?Name=vai%20tr%C3%B2&ParentId=null&Page=3&PageSize=2 - -
+2023-12-14 00:31:03.755 +07:00 [INF] Executing endpoint 'BlogApi.Controllers.PermissionsController.GetPermissions (BlogApi)'
+2023-12-14 00:31:03.755 +07:00 [INF] Route matched with {action = "GetPermissions", controller = "Permissions"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[BlogApi.Models.Response.BaseResponse]] GetPermissions(BlogApi.Models.Permission.PermissionFilter) on controller BlogApi.Controllers.PermissionsController (BlogApi).
+2023-12-14 00:31:03.803 +07:00 [INF] Executing OkObjectResult, writing value of type 'BlogApi.Models.Response.BaseResponse'.
+2023-12-14 00:31:03.803 +07:00 [INF] Executed action BlogApi.Controllers.PermissionsController.GetPermissions (BlogApi) in 47.4544ms
+2023-12-14 00:31:03.803 +07:00 [INF] Executed endpoint 'BlogApi.Controllers.PermissionsController.GetPermissions (BlogApi)'
+2023-12-14 00:31:03.803 +07:00 [INF] HTTP GET /v1/Permissions responded 200 in 47.9642 ms
+2023-12-14 00:31:03.803 +07:00 [INF] Request finished HTTP/1.1 GET https://localhost:7170/v1/Permissions?Name=vai%20tr%C3%B2&ParentId=null&Page=3&PageSize=2 - - - 200 - application/json;+charset=utf-8 48.3283ms
+2023-12-14 00:31:23.685 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:7170/v1/Permissions?Name=vai%20tr%C3%B2&ParentId=null&Page=2&PageSize=2 - -
+2023-12-14 00:31:23.686 +07:00 [INF] Executing endpoint 'BlogApi.Controllers.PermissionsController.GetPermissions (BlogApi)'
+2023-12-14 00:31:23.686 +07:00 [INF] Route matched with {action = "GetPermissions", controller = "Permissions"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[BlogApi.Models.Response.BaseResponse]] GetPermissions(BlogApi.Models.Permission.PermissionFilter) on controller BlogApi.Controllers.PermissionsController (BlogApi).
+2023-12-14 00:31:23.790 +07:00 [INF] Executing OkObjectResult, writing value of type 'BlogApi.Models.Response.BaseResponse'.
+2023-12-14 00:31:23.793 +07:00 [INF] Executed action BlogApi.Controllers.PermissionsController.GetPermissions (BlogApi) in 107.079ms
+2023-12-14 00:31:23.793 +07:00 [INF] Executed endpoint 'BlogApi.Controllers.PermissionsController.GetPermissions (BlogApi)'
+2023-12-14 00:31:23.793 +07:00 [INF] HTTP GET /v1/Permissions responded 200 in 107.6180 ms
+2023-12-14 00:31:23.794 +07:00 [INF] Request finished HTTP/1.1 GET https://localhost:7170/v1/Permissions?Name=vai%20tr%C3%B2&ParentId=null&Page=2&PageSize=2 - - - 200 - application/json;+charset=utf-8 107.9938ms
+2023-12-14 01:41:07.993 +07:00 [INF] User profile is available. Using '/Users/kiennt/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2023-12-14 01:41:08.388 +07:00 [INF] Now listening on: https://localhost:7170
+2023-12-14 01:41:08.389 +07:00 [INF] Now listening on: http://localhost:5020
+2023-12-14 01:41:08.391 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-14 01:41:08.392 +07:00 [INF] Hosting environment: Development
+2023-12-14 01:41:08.392 +07:00 [INF] Content root path: /Users/kiennt/Documents/projects/blog/BlogApi
+2023-12-14 01:41:08.626 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:7170/swagger/index.html - -
+2023-12-14 01:41:08.794 +07:00 [INF] Request finished HTTP/1.1 GET https://localhost:7170/swagger/index.html - - - 200 - text/html;charset=utf-8 170.1969ms
+2023-12-14 01:41:09.019 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:7170/swagger/v1/swagger.json - -
+2023-12-14 01:41:09.189 +07:00 [INF] Request finished HTTP/1.1 GET https://localhost:7170/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 169.4352ms
+2023-12-14 01:41:26.077 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:7170/swagger/index.html - -
+2023-12-14 01:41:26.079 +07:00 [INF] Request finished HTTP/1.1 GET https://localhost:7170/swagger/index.html - - - 200 - text/html;charset=utf-8 1.8805ms
+2023-12-14 01:41:26.314 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:7170/swagger/v1/swagger.json - -
+2023-12-14 01:41:26.326 +07:00 [INF] Request finished HTTP/1.1 GET https://localhost:7170/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 12.1109ms
+2023-12-14 01:41:32.612 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:7170/v1/Roles - -
+2023-12-14 01:41:32.750 +07:00 [INF] Executing endpoint 'BlogApi.Controllers.RolesController.GetRoles (BlogApi)'
+2023-12-14 01:41:32.782 +07:00 [INF] Route matched with {action = "GetRoles", controller = "Roles"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[BlogApi.Models.Response.BaseResponse]] GetRoles(BlogApi.RoleFilter) on controller BlogApi.Controllers.RolesController (BlogApi).
+2023-12-14 01:41:32.950 +07:00 [INF] Executing OkObjectResult, writing value of type 'BlogApi.Models.Response.BaseResponse'.
+2023-12-14 01:41:32.992 +07:00 [INF] Executed action BlogApi.Controllers.RolesController.GetRoles (BlogApi) in 205.664ms
+2023-12-14 01:41:32.995 +07:00 [INF] Executed endpoint 'BlogApi.Controllers.RolesController.GetRoles (BlogApi)'
+2023-12-14 01:41:32.999 +07:00 [INF] HTTP GET /v1/Roles responded 200 in 383.0925 ms
+2023-12-14 01:41:33.002 +07:00 [INF] Request finished HTTP/1.1 GET https://localhost:7170/v1/Roles - - - 200 - application/json;+charset=utf-8 389.7649ms
+2023-12-14 01:41:50.571 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:7170/v1/Roles?PageSize=1 - -
+2023-12-14 01:41:50.574 +07:00 [INF] Executing endpoint 'BlogApi.Controllers.RolesController.GetRoles (BlogApi)'
+2023-12-14 01:41:50.575 +07:00 [INF] Route matched with {action = "GetRoles", controller = "Roles"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[BlogApi.Models.Response.BaseResponse]] GetRoles(BlogApi.RoleFilter) on controller BlogApi.Controllers.RolesController (BlogApi).
+2023-12-14 01:41:50.756 +07:00 [INF] Executing OkObjectResult, writing value of type 'BlogApi.Models.Response.BaseResponse'.
+2023-12-14 01:41:50.757 +07:00 [INF] Executed action BlogApi.Controllers.RolesController.GetRoles (BlogApi) in 182.0109ms
+2023-12-14 01:41:50.757 +07:00 [INF] Executed endpoint 'BlogApi.Controllers.RolesController.GetRoles (BlogApi)'
+2023-12-14 01:41:50.757 +07:00 [INF] HTTP GET /v1/Roles responded 200 in 186.4103 ms
+2023-12-14 01:41:50.758 +07:00 [INF] Request finished HTTP/1.1 GET https://localhost:7170/v1/Roles?PageSize=1 - - - 200 - application/json;+charset=utf-8 186.9720ms
+2023-12-14 01:41:58.701 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:7170/v1/Roles?Page=2&PageSize=1 - -
+2023-12-14 01:41:58.704 +07:00 [INF] Executing endpoint 'BlogApi.Controllers.RolesController.GetRoles (BlogApi)'
+2023-12-14 01:41:58.704 +07:00 [INF] Route matched with {action = "GetRoles", controller = "Roles"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[BlogApi.Models.Response.BaseResponse]] GetRoles(BlogApi.RoleFilter) on controller BlogApi.Controllers.RolesController (BlogApi).
+2023-12-14 01:41:58.802 +07:00 [INF] Executing OkObjectResult, writing value of type 'BlogApi.Models.Response.BaseResponse'.
+2023-12-14 01:41:58.802 +07:00 [INF] Executed action BlogApi.Controllers.RolesController.GetRoles (BlogApi) in 97.6383ms
+2023-12-14 01:41:58.802 +07:00 [INF] Executed endpoint 'BlogApi.Controllers.RolesController.GetRoles (BlogApi)'
+2023-12-14 01:41:58.802 +07:00 [INF] HTTP GET /v1/Roles responded 200 in 101.3623 ms
+2023-12-14 01:41:58.802 +07:00 [INF] Request finished HTTP/1.1 GET https://localhost:7170/v1/Roles?Page=2&PageSize=1 - - - 200 - application/json;+charset=utf-8 101.8057ms
+2023-12-14 01:43:34.188 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:7170/v1/Roles?Name=qu%E1%BA%A3n%20tr%E1%BB%8B%20vi%C3%AAn&Page=2&PageSize=1 - -
+2023-12-14 01:43:34.197 +07:00 [INF] Executing endpoint 'BlogApi.Controllers.RolesController.GetRoles (BlogApi)'
+2023-12-14 01:43:34.200 +07:00 [INF] Route matched with {action = "GetRoles", controller = "Roles"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[BlogApi.Models.Response.BaseResponse]] GetRoles(BlogApi.RoleFilter) on controller BlogApi.Controllers.RolesController (BlogApi).
+2023-12-14 01:43:34.344 +07:00 [INF] Executing OkObjectResult, writing value of type 'BlogApi.Models.Response.BaseResponse'.
+2023-12-14 01:43:34.346 +07:00 [INF] Executed action BlogApi.Controllers.RolesController.GetRoles (BlogApi) in 145.4003ms
+2023-12-14 01:43:34.346 +07:00 [INF] Executed endpoint 'BlogApi.Controllers.RolesController.GetRoles (BlogApi)'
+2023-12-14 01:43:34.346 +07:00 [INF] HTTP GET /v1/Roles responded 200 in 152.2598 ms
+2023-12-14 01:43:34.347 +07:00 [INF] Request finished HTTP/1.1 GET https://localhost:7170/v1/Roles?Name=qu%E1%BA%A3n%20tr%E1%BB%8B%20vi%C3%AAn&Page=2&PageSize=1 - - - 200 - application/json;+charset=utf-8 161.8862ms
+2023-12-14 01:43:45.962 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:7170/v1/Roles?Name=Qu%E1%BA%A3n%20tr%E1%BB%8B%20vi%C3%AAn&Page=2&PageSize=1 - -
+2023-12-14 01:43:45.975 +07:00 [INF] Executing endpoint 'BlogApi.Controllers.RolesController.GetRoles (BlogApi)'
+2023-12-14 01:43:45.976 +07:00 [INF] Route matched with {action = "GetRoles", controller = "Roles"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[BlogApi.Models.Response.BaseResponse]] GetRoles(BlogApi.RoleFilter) on controller BlogApi.Controllers.RolesController (BlogApi).
+2023-12-14 01:43:46.070 +07:00 [INF] Executing OkObjectResult, writing value of type 'BlogApi.Models.Response.BaseResponse'.
+2023-12-14 01:43:46.079 +07:00 [INF] Executed action BlogApi.Controllers.RolesController.GetRoles (BlogApi) in 103.0909ms
+2023-12-14 01:43:46.079 +07:00 [INF] Executed endpoint 'BlogApi.Controllers.RolesController.GetRoles (BlogApi)'
+2023-12-14 01:43:46.079 +07:00 [INF] HTTP GET /v1/Roles responded 200 in 103.7466 ms
+2023-12-14 01:43:46.079 +07:00 [INF] Request finished HTTP/1.1 GET https://localhost:7170/v1/Roles?Name=Qu%E1%BA%A3n%20tr%E1%BB%8B%20vi%C3%AAn&Page=2&PageSize=1 - - - 200 - application/json;+charset=utf-8 117.4675ms
+2023-12-14 01:43:52.675 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:7170/v1/Roles?Page=2&PageSize=1 - -
+2023-12-14 01:43:52.675 +07:00 [INF] Executing endpoint 'BlogApi.Controllers.RolesController.GetRoles (BlogApi)'
+2023-12-14 01:43:52.676 +07:00 [INF] Route matched with {action = "GetRoles", controller = "Roles"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[BlogApi.Models.Response.BaseResponse]] GetRoles(BlogApi.RoleFilter) on controller BlogApi.Controllers.RolesController (BlogApi).
+2023-12-14 01:43:52.827 +07:00 [INF] Executing OkObjectResult, writing value of type 'BlogApi.Models.Response.BaseResponse'.
+2023-12-14 01:43:52.850 +07:00 [INF] Executed action BlogApi.Controllers.RolesController.GetRoles (BlogApi) in 174.4876ms
+2023-12-14 01:43:52.851 +07:00 [INF] Executed endpoint 'BlogApi.Controllers.RolesController.GetRoles (BlogApi)'
+2023-12-14 01:43:52.851 +07:00 [INF] HTTP GET /v1/Roles responded 200 in 175.2929 ms
+2023-12-14 01:43:52.851 +07:00 [INF] Request finished HTTP/1.1 GET https://localhost:7170/v1/Roles?Page=2&PageSize=1 - - - 200 - application/json;+charset=utf-8 175.7960ms
+2023-12-14 01:44:08.954 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:7170/v1/Roles?Name=Qu%E1%BA%A3n%20tr%E1%BB%8B%20vi%C3%AAn&Page=1&PageSize=1 - -
+2023-12-14 01:44:08.954 +07:00 [INF] Executing endpoint 'BlogApi.Controllers.RolesController.GetRoles (BlogApi)'
+2023-12-14 01:44:08.954 +07:00 [INF] Route matched with {action = "GetRoles", controller = "Roles"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[BlogApi.Models.Response.BaseResponse]] GetRoles(BlogApi.RoleFilter) on controller BlogApi.Controllers.RolesController (BlogApi).
+2023-12-14 01:44:09.078 +07:00 [INF] Executing OkObjectResult, writing value of type 'BlogApi.Models.Response.BaseResponse'.
+2023-12-14 01:44:09.079 +07:00 [INF] Executed action BlogApi.Controllers.RolesController.GetRoles (BlogApi) in 124.4342ms
+2023-12-14 01:44:09.079 +07:00 [INF] Executed endpoint 'BlogApi.Controllers.RolesController.GetRoles (BlogApi)'
+2023-12-14 01:44:09.079 +07:00 [INF] HTTP GET /v1/Roles responded 200 in 124.9671 ms
+2023-12-14 01:44:09.079 +07:00 [INF] Request finished HTTP/1.1 GET https://localhost:7170/v1/Roles?Name=Qu%E1%BA%A3n%20tr%E1%BB%8B%20vi%C3%AAn&Page=1&PageSize=1 - - - 200 - application/json;+charset=utf-8 125.5131ms
+2023-12-14 01:44:19.917 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:7170/v1/Roles?Name=qu%E1%BA%A3n%20tr%E1%BB%8B%20vi%C3%AAn&Page=1&PageSize=1 - -
+2023-12-14 01:44:19.917 +07:00 [INF] Executing endpoint 'BlogApi.Controllers.RolesController.GetRoles (BlogApi)'
+2023-12-14 01:44:19.918 +07:00 [INF] Route matched with {action = "GetRoles", controller = "Roles"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[BlogApi.Models.Response.BaseResponse]] GetRoles(BlogApi.RoleFilter) on controller BlogApi.Controllers.RolesController (BlogApi).
+2023-12-14 01:44:20.010 +07:00 [INF] Executing OkObjectResult, writing value of type 'BlogApi.Models.Response.BaseResponse'.
+2023-12-14 01:44:20.010 +07:00 [INF] Executed action BlogApi.Controllers.RolesController.GetRoles (BlogApi) in 92.4466ms
+2023-12-14 01:44:20.010 +07:00 [INF] Executed endpoint 'BlogApi.Controllers.RolesController.GetRoles (BlogApi)'
+2023-12-14 01:44:20.010 +07:00 [INF] HTTP GET /v1/Roles responded 200 in 93.1737 ms
+2023-12-14 01:44:20.010 +07:00 [INF] Request finished HTTP/1.1 GET https://localhost:7170/v1/Roles?Name=qu%E1%BA%A3n%20tr%E1%BB%8B%20vi%C3%AAn&Page=1&PageSize=1 - - - 200 - application/json;+charset=utf-8 93.5124ms
+2023-12-14 01:44:39.724 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:7170/v1/Roles?Name=quan%20tri%20vien&Page=1&PageSize=1 - -
+2023-12-14 01:44:39.725 +07:00 [INF] Executing endpoint 'BlogApi.Controllers.RolesController.GetRoles (BlogApi)'
+2023-12-14 01:44:39.725 +07:00 [INF] Route matched with {action = "GetRoles", controller = "Roles"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[BlogApi.Models.Response.BaseResponse]] GetRoles(BlogApi.RoleFilter) on controller BlogApi.Controllers.RolesController (BlogApi).
+2023-12-14 01:44:39.802 +07:00 [INF] Executing OkObjectResult, writing value of type 'BlogApi.Models.Response.BaseResponse'.
+2023-12-14 01:44:39.804 +07:00 [INF] Executed action BlogApi.Controllers.RolesController.GetRoles (BlogApi) in 78.8581ms
+2023-12-14 01:44:39.804 +07:00 [INF] Executed endpoint 'BlogApi.Controllers.RolesController.GetRoles (BlogApi)'
+2023-12-14 01:44:39.804 +07:00 [INF] HTTP GET /v1/Roles responded 200 in 79.6664 ms
+2023-12-14 01:44:39.805 +07:00 [INF] Request finished HTTP/1.1 GET https://localhost:7170/v1/Roles?Name=quan%20tri%20vien&Page=1&PageSize=1 - - - 200 - application/json;+charset=utf-8 79.9553ms
+2023-12-14 01:44:48.342 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:7170/v1/Roles?Name=vien&Page=1&PageSize=1 - -
+2023-12-14 01:44:48.342 +07:00 [INF] Executing endpoint 'BlogApi.Controllers.RolesController.GetRoles (BlogApi)'
+2023-12-14 01:44:48.342 +07:00 [INF] Route matched with {action = "GetRoles", controller = "Roles"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[BlogApi.Models.Response.BaseResponse]] GetRoles(BlogApi.RoleFilter) on controller BlogApi.Controllers.RolesController (BlogApi).
+2023-12-14 01:44:48.358 +07:00 [INF] Executing OkObjectResult, writing value of type 'BlogApi.Models.Response.BaseResponse'.
+2023-12-14 01:44:48.358 +07:00 [INF] Executed action BlogApi.Controllers.RolesController.GetRoles (BlogApi) in 15.7365ms
+2023-12-14 01:44:48.358 +07:00 [INF] Executed endpoint 'BlogApi.Controllers.RolesController.GetRoles (BlogApi)'
+2023-12-14 01:44:48.358 +07:00 [INF] HTTP GET /v1/Roles responded 200 in 16.2745 ms
+2023-12-14 01:44:48.358 +07:00 [INF] Request finished HTTP/1.1 GET https://localhost:7170/v1/Roles?Name=vien&Page=1&PageSize=1 - - - 200 - application/json;+charset=utf-8 16.6090ms
+2023-12-14 01:44:53.365 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:7170/v1/Roles?Name=vi%C3%AAn&Page=1&PageSize=1 - -
+2023-12-14 01:44:53.365 +07:00 [INF] Executing endpoint 'BlogApi.Controllers.RolesController.GetRoles (BlogApi)'
+2023-12-14 01:44:53.366 +07:00 [INF] Route matched with {action = "GetRoles", controller = "Roles"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[BlogApi.Models.Response.BaseResponse]] GetRoles(BlogApi.RoleFilter) on controller BlogApi.Controllers.RolesController (BlogApi).
+2023-12-14 01:44:53.490 +07:00 [INF] Executing OkObjectResult, writing value of type 'BlogApi.Models.Response.BaseResponse'.
+2023-12-14 01:44:53.517 +07:00 [INF] Executed action BlogApi.Controllers.RolesController.GetRoles (BlogApi) in 151.3085ms
+2023-12-14 01:44:53.517 +07:00 [INF] Executed endpoint 'BlogApi.Controllers.RolesController.GetRoles (BlogApi)'
+2023-12-14 01:44:53.517 +07:00 [INF] HTTP GET /v1/Roles responded 200 in 152.2230 ms
+2023-12-14 01:44:53.518 +07:00 [INF] Request finished HTTP/1.1 GET https://localhost:7170/v1/Roles?Name=vi%C3%AAn&Page=1&PageSize=1 - - - 200 - application/json;+charset=utf-8 152.5858ms
+2023-12-14 01:46:37.655 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:7170/v1/Roles?Page=1&PageSize=1 - -
+2023-12-14 01:46:37.679 +07:00 [INF] Executing endpoint 'BlogApi.Controllers.RolesController.GetRoles (BlogApi)'
+2023-12-14 01:46:37.680 +07:00 [INF] Route matched with {action = "GetRoles", controller = "Roles"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[BlogApi.Models.Response.BaseResponse]] GetRoles(BlogApi.RoleFilter) on controller BlogApi.Controllers.RolesController (BlogApi).
+2023-12-14 01:46:37.802 +07:00 [INF] Executing OkObjectResult, writing value of type 'BlogApi.Models.Response.BaseResponse'.
+2023-12-14 01:46:37.803 +07:00 [INF] Executed action BlogApi.Controllers.RolesController.GetRoles (BlogApi) in 123.1302ms
+2023-12-14 01:46:37.803 +07:00 [INF] Executed endpoint 'BlogApi.Controllers.RolesController.GetRoles (BlogApi)'
+2023-12-14 01:46:37.803 +07:00 [INF] HTTP GET /v1/Roles responded 200 in 145.2105 ms
+2023-12-14 01:46:37.803 +07:00 [INF] Request finished HTTP/1.1 GET https://localhost:7170/v1/Roles?Page=1&PageSize=1 - - - 200 - application/json;+charset=utf-8 148.2740ms
+2023-12-14 01:50:15.284 +07:00 [INF] User profile is available. Using '/Users/kiennt/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2023-12-14 01:50:15.691 +07:00 [INF] Now listening on: https://localhost:7170
+2023-12-14 01:50:15.692 +07:00 [INF] Now listening on: http://localhost:5020
+2023-12-14 01:50:15.695 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-14 01:50:15.695 +07:00 [INF] Hosting environment: Development
+2023-12-14 01:50:15.695 +07:00 [INF] Content root path: /Users/kiennt/Documents/projects/blog/BlogApi
+2023-12-14 01:50:15.924 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:7170/swagger/index.html - -
+2023-12-14 01:50:16.103 +07:00 [INF] Request finished HTTP/1.1 GET https://localhost:7170/swagger/index.html - - - 200 - text/html;charset=utf-8 180.5482ms
+2023-12-14 01:50:16.461 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:7170/swagger/v1/swagger.json - -
+2023-12-14 01:50:16.632 +07:00 [INF] Request finished HTTP/1.1 GET https://localhost:7170/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 171.2504ms

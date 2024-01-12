@@ -1,0 +1,893 @@
+2023-12-13 01:04:20.067 +07:00 [INF] User profile is available. Using '/Users/kiennt/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2023-12-13 01:04:20.490 +07:00 [INF] Now listening on: https://localhost:7170
+2023-12-13 01:04:20.491 +07:00 [INF] Now listening on: http://localhost:5020
+2023-12-13 01:04:20.494 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-13 01:04:20.494 +07:00 [INF] Hosting environment: Development
+2023-12-13 01:04:20.494 +07:00 [INF] Content root path: /Users/kiennt/Documents/projects/blog/BlogApi
+2023-12-13 01:04:20.869 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:7170/swagger/index.html - -
+2023-12-13 01:04:21.045 +07:00 [INF] Request finished HTTP/1.1 GET https://localhost:7170/swagger/index.html - - - 200 - text/html;charset=utf-8 177.9753ms
+2023-12-13 01:04:21.090 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:7170/swagger/swagger-ui-bundle.js - -
+2023-12-13 01:04:21.092 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:7170/swagger/swagger-ui.css - -
+2023-12-13 01:04:21.164 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:7170/swagger/swagger-ui-standalone-preset.js - -
+2023-12-13 01:04:21.170 +07:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2023-12-13 01:04:21.170 +07:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2023-12-13 01:04:21.171 +07:00 [INF] Request finished HTTP/1.1 GET https://localhost:7170/swagger/swagger-ui.css - - - 200 144929 text/css 78.8742ms
+2023-12-13 01:04:21.172 +07:00 [INF] Request finished HTTP/1.1 GET https://localhost:7170/swagger/swagger-ui-standalone-preset.js - - - 200 312163 text/javascript 14.2706ms
+2023-12-13 01:04:21.220 +07:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2023-12-13 01:04:21.223 +07:00 [INF] Request finished HTTP/1.1 GET https://localhost:7170/swagger/swagger-ui-bundle.js - - - 200 1061536 text/javascript 133.4030ms
+2023-12-13 01:04:21.449 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:7170/swagger/v1/swagger.json - -
+2023-12-13 01:04:21.647 +07:00 [INF] Request finished HTTP/1.1 GET https://localhost:7170/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 198.0255ms
+2023-12-13 01:04:41.769 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:7170/v1/Permissions - -
+2023-12-13 01:04:41.888 +07:00 [INF] Executing endpoint 'BlogApi.Controllers.PermissionsController.GetPermissions (BlogApi)'
+2023-12-13 01:04:41.919 +07:00 [INF] Route matched with {action = "GetPermissions", controller = "Permissions"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[BlogApi.Models.Response.BaseResponse]] GetPermissions(BlogApi.Models.Permission.PermissionFilter) on controller BlogApi.Controllers.PermissionsController (BlogApi).
+2023-12-13 01:04:41.957 +07:00 [INF] { "Page" : NumberLong(1), "PageSize" : NumberLong(10), "Name" : null, "parentId" : null }
+2023-12-13 01:04:42.075 +07:00 [INF] Executing OkObjectResult, writing value of type 'BlogApi.Models.Response.BaseResponse'.
+2023-12-13 01:04:42.101 +07:00 [INF] Executed action BlogApi.Controllers.PermissionsController.GetPermissions (BlogApi) in 177.017ms
+2023-12-13 01:04:42.104 +07:00 [INF] Executed endpoint 'BlogApi.Controllers.PermissionsController.GetPermissions (BlogApi)'
+2023-12-13 01:04:42.108 +07:00 [INF] HTTP GET /v1/Permissions responded 200 in 332.8921 ms
+2023-12-13 01:04:42.110 +07:00 [INF] Request finished HTTP/1.1 GET https://localhost:7170/v1/Permissions - - - 200 - application/json;+charset=utf-8 393.7024ms
+2023-12-13 01:42:02.144 +07:00 [INF] User profile is available. Using '/Users/kiennt/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2023-12-13 01:42:02.574 +07:00 [INF] Now listening on: https://localhost:7170
+2023-12-13 01:42:02.575 +07:00 [INF] Now listening on: http://localhost:5020
+2023-12-13 01:42:02.577 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-13 01:42:02.577 +07:00 [INF] Hosting environment: Development
+2023-12-13 01:42:02.578 +07:00 [INF] Content root path: /Users/kiennt/Documents/projects/blog/BlogApi
+2023-12-13 01:42:02.806 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:7170/swagger/index.html - -
+2023-12-13 01:42:02.976 +07:00 [INF] Request finished HTTP/1.1 GET https://localhost:7170/swagger/index.html - - - 200 - text/html;charset=utf-8 171.2744ms
+2023-12-13 01:42:03.337 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:7170/swagger/v1/swagger.json - -
+2023-12-13 01:42:03.508 +07:00 [INF] Request finished HTTP/1.1 GET https://localhost:7170/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 170.9104ms
+2023-12-13 01:42:33.201 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:7170/v1/Permissions - -
+2023-12-13 01:42:33.346 +07:00 [INF] Executing endpoint 'BlogApi.Controllers.PermissionsController.GetPermissions (BlogApi)'
+2023-12-13 01:42:33.378 +07:00 [INF] Route matched with {action = "GetPermissions", controller = "Permissions"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[BlogApi.Models.Response.BaseResponse]] GetPermissions(BlogApi.Models.Permission.PermissionFilter) on controller BlogApi.Controllers.PermissionsController (BlogApi).
+2023-12-13 01:42:33.416 +07:00 [INF] { "Page" : NumberLong(1), "PageSize" : NumberLong(10), "Name" : null, "ParentId" : null }
+2023-12-13 01:42:33.622 +07:00 [INF] Executing OkObjectResult, writing value of type 'BlogApi.Models.Response.BaseResponse'.
+2023-12-13 01:42:33.642 +07:00 [INF] Executed action BlogApi.Controllers.PermissionsController.GetPermissions (BlogApi) in 259.3197ms
+2023-12-13 01:42:33.645 +07:00 [INF] Executed endpoint 'BlogApi.Controllers.PermissionsController.GetPermissions (BlogApi)'
+2023-12-13 01:42:33.649 +07:00 [INF] HTTP GET /v1/Permissions responded 200 in 442.4834 ms
+2023-12-13 01:42:33.651 +07:00 [INF] Request finished HTTP/1.1 GET https://localhost:7170/v1/Permissions - - - 200 - application/json;+charset=utf-8 455.6209ms
+2023-12-13 01:42:52.141 +07:00 [INF] Request starting HTTP/1.1 PATCH https://localhost:7170/v1/Permissions/UpdateMany application/json 106
+2023-12-13 01:42:52.169 +07:00 [INF] Executing endpoint 'BlogApi.Controllers.PermissionsController.PatchPermissions (BlogApi)'
+2023-12-13 01:42:52.176 +07:00 [INF] Route matched with {action = "PatchPermissions", controller = "Permissions"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[BlogApi.Models.Response.BaseResponse]] PatchPermissions(BlogApi.Models.Permission.PermissionFilter, BlogApi.Models.Permission.PermissionDTO) on controller BlogApi.Controllers.PermissionsController (BlogApi).
+2023-12-13 01:42:52.322 +07:00 [INF] Executed action BlogApi.Controllers.PermissionsController.PatchPermissions (BlogApi) in 146.3568ms
+2023-12-13 01:42:52.323 +07:00 [INF] Executed endpoint 'BlogApi.Controllers.PermissionsController.PatchPermissions (BlogApi)'
+2023-12-13 01:42:52.356 +07:00 [ERR] HTTP PATCH /v1/Permissions/UpdateMany responded 500 in 214.8513 ms
+MongoDB.Bson.BsonSerializationException: An error occurred while serializing the ParentId property of class BlogApi.Models.Permission.PermissionDTO: 'string' is not a valid 24 digit hex string.
+ ---> System.FormatException: 'string' is not a valid 24 digit hex string.
+   at MongoDB.Bson.ObjectId.Parse(String s)
+   at MongoDB.Bson.Serialization.Serializers.StringSerializer.SerializeValue(BsonSerializationContext context, BsonSerializationArgs args, String value)
+   at MongoDB.Bson.Serialization.Serializers.SealedClassSerializerBase`1.Serialize(BsonSerializationContext context, BsonSerializationArgs args, TValue value)
+   at MongoDB.Bson.Serialization.IBsonSerializerExtensions.Serialize(IBsonSerializer serializer, BsonSerializationContext context, Object value)
+   at MongoDB.Bson.Serialization.BsonClassMapSerializer`1.SerializeNormalMember(BsonSerializationContext context, Object obj, BsonMemberMap memberMap)
+   at MongoDB.Bson.Serialization.BsonClassMapSerializer`1.SerializeMember(BsonSerializationContext context, Object obj, BsonMemberMap memberMap)
+   --- End of inner exception stack trace ---
+   at MongoDB.Bson.Serialization.BsonClassMapSerializer`1.SerializeMember(BsonSerializationContext context, Object obj, BsonMemberMap memberMap)
+   at MongoDB.Bson.Serialization.BsonClassMapSerializer`1.SerializeClass(BsonSerializationContext context, BsonSerializationArgs args, TClass document)
+   at MongoDB.Bson.Serialization.BsonClassMapSerializer`1.Serialize(BsonSerializationContext context, BsonSerializationArgs args, TClass value)
+   at MongoDB.Bson.BsonExtensionMethods.ToJson(Object obj, Type nominalType, JsonWriterSettings writerSettings, IBsonSerializer serializer, Action`1 configurator, BsonSerializationArgs args)
+   at MongoDB.Bson.BsonExtensionMethods.ToJson[TNominalType](TNominalType obj, JsonWriterSettings writerSettings, IBsonSerializer`1 serializer, Action`1 configurator, BsonSerializationArgs args)
+   at BlogApi.Controllers.PermissionsController.PatchPermissions(PermissionFilter permissionFilter, PermissionDTO permissionDTO) in /Users/kiennt/Documents/projects/blog/BlogApi/Controllers/PermissionsController.cs:line 259
+   at lambda_method27(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at BlogApi.Middlewares.JWTMiddleware.InvokeAsync(HttpContext httpContext) in /Users/kiennt/Documents/projects/blog/BlogApi/Middlewares/JWTMiddleware.cs:line 17
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2023-12-13 01:42:52.415 +07:00 [ERR] An unhandled exception has occurred while executing the request.
+MongoDB.Bson.BsonSerializationException: An error occurred while serializing the ParentId property of class BlogApi.Models.Permission.PermissionDTO: 'string' is not a valid 24 digit hex string.
+ ---> System.FormatException: 'string' is not a valid 24 digit hex string.
+   at MongoDB.Bson.ObjectId.Parse(String s)
+   at MongoDB.Bson.Serialization.Serializers.StringSerializer.SerializeValue(BsonSerializationContext context, BsonSerializationArgs args, String value)
+   at MongoDB.Bson.Serialization.Serializers.SealedClassSerializerBase`1.Serialize(BsonSerializationContext context, BsonSerializationArgs args, TValue value)
+   at MongoDB.Bson.Serialization.IBsonSerializerExtensions.Serialize(IBsonSerializer serializer, BsonSerializationContext context, Object value)
+   at MongoDB.Bson.Serialization.BsonClassMapSerializer`1.SerializeNormalMember(BsonSerializationContext context, Object obj, BsonMemberMap memberMap)
+   at MongoDB.Bson.Serialization.BsonClassMapSerializer`1.SerializeMember(BsonSerializationContext context, Object obj, BsonMemberMap memberMap)
+   --- End of inner exception stack trace ---
+   at MongoDB.Bson.Serialization.BsonClassMapSerializer`1.SerializeMember(BsonSerializationContext context, Object obj, BsonMemberMap memberMap)
+   at MongoDB.Bson.Serialization.BsonClassMapSerializer`1.SerializeClass(BsonSerializationContext context, BsonSerializationArgs args, TClass document)
+   at MongoDB.Bson.Serialization.BsonClassMapSerializer`1.Serialize(BsonSerializationContext context, BsonSerializationArgs args, TClass value)
+   at MongoDB.Bson.BsonExtensionMethods.ToJson(Object obj, Type nominalType, JsonWriterSettings writerSettings, IBsonSerializer serializer, Action`1 configurator, BsonSerializationArgs args)
+   at MongoDB.Bson.BsonExtensionMethods.ToJson[TNominalType](TNominalType obj, JsonWriterSettings writerSettings, IBsonSerializer`1 serializer, Action`1 configurator, BsonSerializationArgs args)
+   at BlogApi.Controllers.PermissionsController.PatchPermissions(PermissionFilter permissionFilter, PermissionDTO permissionDTO) in /Users/kiennt/Documents/projects/blog/BlogApi/Controllers/PermissionsController.cs:line 259
+   at lambda_method27(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at BlogApi.Middlewares.JWTMiddleware.InvokeAsync(HttpContext httpContext) in /Users/kiennt/Documents/projects/blog/BlogApi/Middlewares/JWTMiddleware.cs:line 17
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2023-12-13 01:42:52.423 +07:00 [INF] Request finished HTTP/1.1 PATCH https://localhost:7170/v1/Permissions/UpdateMany application/json 106 - 500 - text/plain;+charset=utf-8 281.4039ms
+2023-12-13 01:42:59.475 +07:00 [INF] Request starting HTTP/1.1 PATCH https://localhost:7170/v1/Permissions/UpdateMany application/json -
+2023-12-13 01:42:59.479 +07:00 [INF] Executing endpoint 'BlogApi.Controllers.PermissionsController.PatchPermissions (BlogApi)'
+2023-12-13 01:42:59.479 +07:00 [INF] Route matched with {action = "PatchPermissions", controller = "Permissions"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[BlogApi.Models.Response.BaseResponse]] PatchPermissions(BlogApi.Models.Permission.PermissionFilter, BlogApi.Models.Permission.PermissionDTO) on controller BlogApi.Controllers.PermissionsController (BlogApi).
+2023-12-13 01:42:59.480 +07:00 [INF] null
+2023-12-13 01:42:59.481 +07:00 [INF] Executing BadRequestObjectResult, writing value of type 'BlogApi.Models.Response.BaseResponse'.
+2023-12-13 01:42:59.482 +07:00 [INF] Executed action BlogApi.Controllers.PermissionsController.PatchPermissions (BlogApi) in 2.9957ms
+2023-12-13 01:42:59.482 +07:00 [INF] Executed endpoint 'BlogApi.Controllers.PermissionsController.PatchPermissions (BlogApi)'
+2023-12-13 01:42:59.482 +07:00 [INF] HTTP PATCH /v1/Permissions/UpdateMany responded 400 in 6.5035 ms
+2023-12-13 01:42:59.482 +07:00 [INF] Request finished HTTP/1.1 PATCH https://localhost:7170/v1/Permissions/UpdateMany application/json - - 400 - application/json;+charset=utf-8 6.8791ms
+2023-12-13 01:43:05.157 +07:00 [INF] Request starting HTTP/1.1 PATCH https://localhost:7170/v1/Permissions/UpdateMany application/json 2
+2023-12-13 01:43:05.158 +07:00 [INF] Executing endpoint 'BlogApi.Controllers.PermissionsController.PatchPermissions (BlogApi)'
+2023-12-13 01:43:05.158 +07:00 [INF] Route matched with {action = "PatchPermissions", controller = "Permissions"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[BlogApi.Models.Response.BaseResponse]] PatchPermissions(BlogApi.Models.Permission.PermissionFilter, BlogApi.Models.Permission.PermissionDTO) on controller BlogApi.Controllers.PermissionsController (BlogApi).
+2023-12-13 01:43:05.159 +07:00 [INF] { "Name" : null, "Key" : null, "Order" : null, "Description" : null, "ParentId" : null }
+2023-12-13 01:45:29.794 +07:00 [INF] User profile is available. Using '/Users/kiennt/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2023-12-13 01:45:30.191 +07:00 [INF] Now listening on: https://localhost:7170
+2023-12-13 01:45:30.192 +07:00 [INF] Now listening on: http://localhost:5020
+2023-12-13 01:45:30.194 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-13 01:45:30.195 +07:00 [INF] Hosting environment: Development
+2023-12-13 01:45:30.195 +07:00 [INF] Content root path: /Users/kiennt/Documents/projects/blog/BlogApi
+2023-12-13 01:45:30.433 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:7170/swagger/index.html - -
+2023-12-13 01:45:30.609 +07:00 [INF] Request finished HTTP/1.1 GET https://localhost:7170/swagger/index.html - - - 200 - text/html;charset=utf-8 178.3787ms
+2023-12-13 01:45:30.835 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:7170/swagger/v1/swagger.json - -
+2023-12-13 01:45:31.008 +07:00 [INF] Request finished HTTP/1.1 GET https://localhost:7170/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 172.6352ms
+2023-12-13 01:45:38.632 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:7170/v1/Permissions - -
+2023-12-13 01:45:38.797 +07:00 [INF] Executing endpoint 'BlogApi.Controllers.PermissionsController.GetPermissions (BlogApi)'
+2023-12-13 01:45:38.830 +07:00 [INF] Route matched with {action = "GetPermissions", controller = "Permissions"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[BlogApi.Models.Response.BaseResponse]] GetPermissions(BlogApi.Models.Permission.PermissionFilter) on controller BlogApi.Controllers.PermissionsController (BlogApi).
+2023-12-13 01:45:38.869 +07:00 [INF] { "Page" : NumberLong(1), "PageSize" : NumberLong(10), "Name" : null, "ParentId" : null }
+2023-12-13 01:45:39.013 +07:00 [INF] Executing OkObjectResult, writing value of type 'BlogApi.Models.Response.BaseResponse'.
+2023-12-13 01:45:39.034 +07:00 [INF] Executed action BlogApi.Controllers.PermissionsController.GetPermissions (BlogApi) in 199.7454ms
+2023-12-13 01:45:39.038 +07:00 [INF] Executed endpoint 'BlogApi.Controllers.PermissionsController.GetPermissions (BlogApi)'
+2023-12-13 01:45:39.041 +07:00 [INF] HTTP GET /v1/Permissions responded 200 in 404.4040 ms
+2023-12-13 01:45:39.044 +07:00 [INF] Request finished HTTP/1.1 GET https://localhost:7170/v1/Permissions - - - 200 - application/json;+charset=utf-8 411.5879ms
+2023-12-13 01:45:43.697 +07:00 [INF] Request starting HTTP/1.1 PATCH https://localhost:7170/v1/Permissions/UpdateMany application/json 2
+2023-12-13 01:45:43.701 +07:00 [INF] Executing endpoint 'BlogApi.Controllers.PermissionsController.PatchPermissions (BlogApi)'
+2023-12-13 01:45:43.707 +07:00 [INF] Route matched with {action = "PatchPermissions", controller = "Permissions"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[BlogApi.Models.Response.BaseResponse]] PatchPermissions(BlogApi.Models.Permission.PermissionFilter, BlogApi.Models.Permission.PermissionDTO) on controller BlogApi.Controllers.PermissionsController (BlogApi).
+2023-12-13 01:45:43.732 +07:00 [INF] { "Name" : null, "Key" : null, "Order" : null, "Description" : null, "ParentId" : null }
+2023-12-13 01:45:44.739 +07:00 [INF] Executing OkObjectResult, writing value of type 'BlogApi.Models.Response.BaseResponse'.
+2023-12-13 01:45:44.740 +07:00 [INF] Executed action BlogApi.Controllers.PermissionsController.PatchPermissions (BlogApi) in 1032.7808ms
+2023-12-13 01:45:44.740 +07:00 [INF] Executed endpoint 'BlogApi.Controllers.PermissionsController.PatchPermissions (BlogApi)'
+2023-12-13 01:45:44.740 +07:00 [INF] HTTP PATCH /v1/Permissions/UpdateMany responded 200 in 1042.7682 ms
+2023-12-13 01:45:44.741 +07:00 [INF] Request finished HTTP/1.1 PATCH https://localhost:7170/v1/Permissions/UpdateMany application/json 2 - 200 - application/json;+charset=utf-8 1043.4012ms
+2023-12-13 01:45:49.918 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:7170/v1/Permissions - -
+2023-12-13 01:45:49.921 +07:00 [INF] Executing endpoint 'BlogApi.Controllers.PermissionsController.GetPermissions (BlogApi)'
+2023-12-13 01:45:49.921 +07:00 [INF] Route matched with {action = "GetPermissions", controller = "Permissions"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[BlogApi.Models.Response.BaseResponse]] GetPermissions(BlogApi.Models.Permission.PermissionFilter) on controller BlogApi.Controllers.PermissionsController (BlogApi).
+2023-12-13 01:45:49.922 +07:00 [INF] { "Page" : NumberLong(1), "PageSize" : NumberLong(10), "Name" : null, "ParentId" : null }
+2023-12-13 01:45:50.038 +07:00 [INF] Executing OkObjectResult, writing value of type 'BlogApi.Models.Response.BaseResponse'.
+2023-12-13 01:45:50.038 +07:00 [INF] Executed action BlogApi.Controllers.PermissionsController.GetPermissions (BlogApi) in 116.3487ms
+2023-12-13 01:45:50.038 +07:00 [INF] Executed endpoint 'BlogApi.Controllers.PermissionsController.GetPermissions (BlogApi)'
+2023-12-13 01:45:50.038 +07:00 [INF] HTTP GET /v1/Permissions responded 200 in 119.9281 ms
+2023-12-13 01:45:50.038 +07:00 [INF] Request finished HTTP/1.1 GET https://localhost:7170/v1/Permissions - - - 200 - application/json;+charset=utf-8 120.4213ms
+2023-12-13 01:48:05.919 +07:00 [INF] User profile is available. Using '/Users/kiennt/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2023-12-13 01:48:06.322 +07:00 [INF] Now listening on: https://localhost:7170
+2023-12-13 01:48:06.323 +07:00 [INF] Now listening on: http://localhost:5020
+2023-12-13 01:48:06.325 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-13 01:48:06.326 +07:00 [INF] Hosting environment: Development
+2023-12-13 01:48:06.326 +07:00 [INF] Content root path: /Users/kiennt/Documents/projects/blog/BlogApi
+2023-12-13 01:48:06.602 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:7170/swagger/index.html - -
+2023-12-13 01:48:06.781 +07:00 [INF] Request finished HTTP/1.1 GET https://localhost:7170/swagger/index.html - - - 200 - text/html;charset=utf-8 181.4086ms
+2023-12-13 01:48:07.007 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:7170/swagger/v1/swagger.json - -
+2023-12-13 01:48:07.179 +07:00 [INF] Request finished HTTP/1.1 GET https://localhost:7170/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 171.9575ms
+2023-12-13 01:48:14.709 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:7170/v1/Permissions - -
+2023-12-13 01:48:14.882 +07:00 [INF] Executing endpoint 'BlogApi.Controllers.PermissionsController.GetPermissions (BlogApi)'
+2023-12-13 01:48:14.915 +07:00 [INF] Route matched with {action = "GetPermissions", controller = "Permissions"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[BlogApi.Models.Response.BaseResponse]] GetPermissions(BlogApi.Models.Permission.PermissionFilter) on controller BlogApi.Controllers.PermissionsController (BlogApi).
+2023-12-13 01:48:14.953 +07:00 [INF] { "Page" : NumberLong(1), "PageSize" : NumberLong(10), "Name" : null, "ParentId" : null }
+2023-12-13 01:48:15.161 +07:00 [INF] Executing OkObjectResult, writing value of type 'BlogApi.Models.Response.BaseResponse'.
+2023-12-13 01:48:15.197 +07:00 [INF] Executed action BlogApi.Controllers.PermissionsController.GetPermissions (BlogApi) in 276.9216ms
+2023-12-13 01:48:15.200 +07:00 [INF] Executed endpoint 'BlogApi.Controllers.PermissionsController.GetPermissions (BlogApi)'
+2023-12-13 01:48:15.204 +07:00 [INF] HTTP GET /v1/Permissions responded 200 in 489.8281 ms
+2023-12-13 01:48:15.207 +07:00 [INF] Request finished HTTP/1.1 GET https://localhost:7170/v1/Permissions - - - 200 - application/json;+charset=utf-8 497.4022ms
+2023-12-13 01:49:37.811 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:7170/v1/Permissions?Page=2 - -
+2023-12-13 01:49:37.884 +07:00 [INF] Executing endpoint 'BlogApi.Controllers.PermissionsController.GetPermissions (BlogApi)'
+2023-12-13 01:49:37.885 +07:00 [INF] Route matched with {action = "GetPermissions", controller = "Permissions"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[BlogApi.Models.Response.BaseResponse]] GetPermissions(BlogApi.Models.Permission.PermissionFilter) on controller BlogApi.Controllers.PermissionsController (BlogApi).
+2023-12-13 01:49:37.894 +07:00 [INF] { "Page" : NumberLong(2), "PageSize" : NumberLong(10), "Name" : null, "ParentId" : null }
+2023-12-13 01:49:38.020 +07:00 [INF] Executing OkObjectResult, writing value of type 'BlogApi.Models.Response.BaseResponse'.
+2023-12-13 01:49:38.021 +07:00 [INF] Executed action BlogApi.Controllers.PermissionsController.GetPermissions (BlogApi) in 135.5326ms
+2023-12-13 01:49:38.021 +07:00 [INF] Executed endpoint 'BlogApi.Controllers.PermissionsController.GetPermissions (BlogApi)'
+2023-12-13 01:49:38.021 +07:00 [INF] HTTP GET /v1/Permissions responded 200 in 209.5594 ms
+2023-12-13 01:49:38.021 +07:00 [INF] Request finished HTTP/1.1 GET https://localhost:7170/v1/Permissions?Page=2 - - - 200 - application/json;+charset=utf-8 215.9858ms
+2023-12-13 01:51:09.628 +07:00 [INF] User profile is available. Using '/Users/kiennt/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2023-12-13 01:51:10.030 +07:00 [INF] Now listening on: https://localhost:7170
+2023-12-13 01:51:10.031 +07:00 [INF] Now listening on: http://localhost:5020
+2023-12-13 01:51:10.033 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-13 01:51:10.033 +07:00 [INF] Hosting environment: Development
+2023-12-13 01:51:10.033 +07:00 [INF] Content root path: /Users/kiennt/Documents/projects/blog/BlogApi
+2023-12-13 01:51:10.267 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:7170/swagger/index.html - -
+2023-12-13 01:51:10.446 +07:00 [INF] Request finished HTTP/1.1 GET https://localhost:7170/swagger/index.html - - - 200 - text/html;charset=utf-8 180.8801ms
+2023-12-13 01:51:10.667 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:7170/swagger/v1/swagger.json - -
+2023-12-13 01:51:10.838 +07:00 [INF] Request finished HTTP/1.1 GET https://localhost:7170/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 171.2105ms
+2023-12-13 01:51:17.837 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:7170/v1/Permissions?Page=2 - -
+2023-12-13 01:51:17.982 +07:00 [INF] Executing endpoint 'BlogApi.Controllers.PermissionsController.GetPermissions (BlogApi)'
+2023-12-13 01:51:18.013 +07:00 [INF] Route matched with {action = "GetPermissions", controller = "Permissions"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[BlogApi.Models.Response.BaseResponse]] GetPermissions(BlogApi.Models.Permission.PermissionFilter) on controller BlogApi.Controllers.PermissionsController (BlogApi).
+2023-12-13 01:51:18.057 +07:00 [INF] Before::{ "Page" : NumberLong(2), "PageSize" : NumberLong(10), "Name" : null, "ParentId" : null }
+2023-12-13 01:51:18.058 +07:00 [INF] After::{ "Page" : NumberLong(2), "PageSize" : NumberLong(10), "Name" : null, "ParentId" : null }
+2023-12-13 01:51:18.259 +07:00 [INF] Executing OkObjectResult, writing value of type 'BlogApi.Models.Response.BaseResponse'.
+2023-12-13 01:51:18.295 +07:00 [INF] Executed action BlogApi.Controllers.PermissionsController.GetPermissions (BlogApi) in 276.8495ms
+2023-12-13 01:51:18.298 +07:00 [INF] Executed endpoint 'BlogApi.Controllers.PermissionsController.GetPermissions (BlogApi)'
+2023-12-13 01:51:18.302 +07:00 [INF] HTTP GET /v1/Permissions responded 200 in 459.9049 ms
+2023-12-13 01:51:18.305 +07:00 [INF] Request finished HTTP/1.1 GET https://localhost:7170/v1/Permissions?Page=2 - - - 200 - application/json;+charset=utf-8 467.1358ms
+2023-12-13 01:51:34.184 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:7170/swagger/index.html - -
+2023-12-13 01:51:34.185 +07:00 [INF] Request finished HTTP/1.1 GET https://localhost:7170/swagger/index.html - - - 200 - text/html;charset=utf-8 1.3033ms
+2023-12-13 01:51:34.424 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:7170/swagger/v1/swagger.json - -
+2023-12-13 01:51:34.438 +07:00 [INF] Request finished HTTP/1.1 GET https://localhost:7170/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 13.9546ms
+2023-12-13 01:51:44.508 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:7170/v1/Permissions - -
+2023-12-13 01:51:44.517 +07:00 [INF] Executing endpoint 'BlogApi.Controllers.PermissionsController.GetPermissions (BlogApi)'
+2023-12-13 01:51:44.518 +07:00 [INF] Route matched with {action = "GetPermissions", controller = "Permissions"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[BlogApi.Models.Response.BaseResponse]] GetPermissions(BlogApi.Models.Permission.PermissionFilter) on controller BlogApi.Controllers.PermissionsController (BlogApi).
+2023-12-13 01:51:44.519 +07:00 [INF] Before::{ "Page" : NumberLong(1), "PageSize" : NumberLong(10), "Name" : null, "ParentId" : null }
+2023-12-13 01:51:44.520 +07:00 [INF] After::{ "Page" : NumberLong(1), "PageSize" : NumberLong(10), "Name" : null, "ParentId" : null }
+2023-12-13 01:51:44.668 +07:00 [INF] Executing OkObjectResult, writing value of type 'BlogApi.Models.Response.BaseResponse'.
+2023-12-13 01:51:44.669 +07:00 [INF] Executed action BlogApi.Controllers.PermissionsController.GetPermissions (BlogApi) in 150.8383ms
+2023-12-13 01:51:44.669 +07:00 [INF] Executed endpoint 'BlogApi.Controllers.PermissionsController.GetPermissions (BlogApi)'
+2023-12-13 01:51:44.669 +07:00 [INF] HTTP GET /v1/Permissions responded 200 in 161.0598 ms
+2023-12-13 01:51:44.669 +07:00 [INF] Request finished HTTP/1.1 GET https://localhost:7170/v1/Permissions - - - 200 - application/json;+charset=utf-8 161.6050ms
+2023-12-13 01:52:29.371 +07:00 [INF] User profile is available. Using '/Users/kiennt/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2023-12-13 01:52:29.771 +07:00 [INF] Now listening on: https://localhost:7170
+2023-12-13 01:52:29.772 +07:00 [INF] Now listening on: http://localhost:5020
+2023-12-13 01:52:29.774 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-13 01:52:29.774 +07:00 [INF] Hosting environment: Development
+2023-12-13 01:52:29.774 +07:00 [INF] Content root path: /Users/kiennt/Documents/projects/blog/BlogApi
+2023-12-13 01:52:29.997 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:7170/swagger/index.html - -
+2023-12-13 01:52:30.174 +07:00 [INF] Request finished HTTP/1.1 GET https://localhost:7170/swagger/index.html - - - 200 - text/html;charset=utf-8 179.6241ms
+2023-12-13 01:52:30.535 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:7170/swagger/v1/swagger.json - -
+2023-12-13 01:52:30.707 +07:00 [INF] Request finished HTTP/1.1 GET https://localhost:7170/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 172.6533ms
+2023-12-13 01:52:33.261 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:7170/v1/Permissions - -
+2023-12-13 01:52:33.382 +07:00 [INF] Executing endpoint 'BlogApi.Controllers.PermissionsController.GetPermissions (BlogApi)'
+2023-12-13 01:52:33.413 +07:00 [INF] Route matched with {action = "GetPermissions", controller = "Permissions"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[BlogApi.Models.Response.BaseResponse]] GetPermissions(BlogApi.Models.Permission.PermissionFilter) on controller BlogApi.Controllers.PermissionsController (BlogApi).
+2023-12-13 01:52:33.450 +07:00 [INF] Before::{ "Page" : NumberLong(1), "PageSize" : NumberLong(10), "Name" : null, "ParentId" : null }
+2023-12-13 01:52:33.451 +07:00 [INF] After::{ "Page" : NumberLong(1), "PageSize" : NumberLong(10) }
+2023-12-13 01:52:33.654 +07:00 [INF] Executing OkObjectResult, writing value of type 'BlogApi.Models.Response.BaseResponse'.
+2023-12-13 01:52:33.688 +07:00 [INF] Executed action BlogApi.Controllers.PermissionsController.GetPermissions (BlogApi) in 271.0676ms
+2023-12-13 01:52:33.691 +07:00 [INF] Executed endpoint 'BlogApi.Controllers.PermissionsController.GetPermissions (BlogApi)'
+2023-12-13 01:52:33.695 +07:00 [INF] HTTP GET /v1/Permissions responded 200 in 428.7897 ms
+2023-12-13 01:52:33.698 +07:00 [INF] Request finished HTTP/1.1 GET https://localhost:7170/v1/Permissions - - - 200 - application/json;+charset=utf-8 435.9844ms
+2023-12-13 01:52:51.011 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:7170/v1/Permissions?Page=1&PageSize=20 - -
+2023-12-13 01:52:51.023 +07:00 [INF] Executing endpoint 'BlogApi.Controllers.PermissionsController.GetPermissions (BlogApi)'
+2023-12-13 01:52:51.024 +07:00 [INF] Route matched with {action = "GetPermissions", controller = "Permissions"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[BlogApi.Models.Response.BaseResponse]] GetPermissions(BlogApi.Models.Permission.PermissionFilter) on controller BlogApi.Controllers.PermissionsController (BlogApi).
+2023-12-13 01:52:51.033 +07:00 [INF] Before::{ "Page" : NumberLong(1), "PageSize" : NumberLong(20), "Name" : null, "ParentId" : null }
+2023-12-13 01:52:51.033 +07:00 [INF] After::{ "Page" : NumberLong(1), "PageSize" : NumberLong(20) }
+2023-12-13 01:52:51.055 +07:00 [INF] Executing OkObjectResult, writing value of type 'BlogApi.Models.Response.BaseResponse'.
+2023-12-13 01:52:51.057 +07:00 [INF] Executed action BlogApi.Controllers.PermissionsController.GetPermissions (BlogApi) in 32.527ms
+2023-12-13 01:52:51.057 +07:00 [INF] Executed endpoint 'BlogApi.Controllers.PermissionsController.GetPermissions (BlogApi)'
+2023-12-13 01:52:51.057 +07:00 [INF] HTTP GET /v1/Permissions responded 200 in 37.9912 ms
+2023-12-13 01:52:51.057 +07:00 [INF] Request finished HTTP/1.1 GET https://localhost:7170/v1/Permissions?Page=1&PageSize=20 - - - 200 - application/json;+charset=utf-8 45.6577ms
+2023-12-13 01:59:09.191 +07:00 [INF] User profile is available. Using '/Users/kiennt/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2023-12-13 01:59:09.588 +07:00 [INF] Now listening on: https://localhost:7170
+2023-12-13 01:59:09.589 +07:00 [INF] Now listening on: http://localhost:5020
+2023-12-13 01:59:09.592 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-13 01:59:09.592 +07:00 [INF] Hosting environment: Development
+2023-12-13 01:59:09.592 +07:00 [INF] Content root path: /Users/kiennt/Documents/projects/blog/BlogApi
+2023-12-13 01:59:09.874 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:7170/swagger/index.html - -
+2023-12-13 01:59:10.047 +07:00 [INF] Request finished HTTP/1.1 GET https://localhost:7170/swagger/index.html - - - 200 - text/html;charset=utf-8 175.6472ms
+2023-12-13 01:59:10.273 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:7170/swagger/v1/swagger.json - -
+2023-12-13 01:59:10.473 +07:00 [INF] Request finished HTTP/1.1 GET https://localhost:7170/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 199.3854ms
+2023-12-13 01:59:18.470 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:7170/v1/Permissions?Page=1 - -
+2023-12-13 01:59:18.611 +07:00 [INF] Executing endpoint 'BlogApi.Controllers.PermissionsController.GetPermissions (BlogApi)'
+2023-12-13 01:59:18.643 +07:00 [INF] Route matched with {action = "GetPermissions", controller = "Permissions"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[BlogApi.Models.Response.BaseResponse]] GetPermissions(BlogApi.Models.Permission.PermissionFilter) on controller BlogApi.Controllers.PermissionsController (BlogApi).
+2023-12-13 01:59:18.687 +07:00 [INF] Before::{ "Page" : NumberLong(1), "PageSize" : NumberLong(10), "Name" : null, "ParentId" : null }
+2023-12-13 01:59:18.688 +07:00 [INF] After::{ "Page" : NumberLong(1), "PageSize" : NumberLong(10) }
+2023-12-13 01:59:18.934 +07:00 [INF] Executing OkObjectResult, writing value of type 'BlogApi.Models.Response.BaseResponse'.
+2023-12-13 01:59:18.969 +07:00 [INF] Executed action BlogApi.Controllers.PermissionsController.GetPermissions (BlogApi) in 321.6037ms
+2023-12-13 01:59:18.973 +07:00 [INF] Executed endpoint 'BlogApi.Controllers.PermissionsController.GetPermissions (BlogApi)'
+2023-12-13 01:59:18.977 +07:00 [INF] HTTP GET /v1/Permissions responded 200 in 501.7679 ms
+2023-12-13 01:59:18.980 +07:00 [INF] Request finished HTTP/1.1 GET https://localhost:7170/v1/Permissions?Page=1 - - - 200 - application/json;+charset=utf-8 509.1021ms
+2023-12-13 01:59:52.781 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:7170/v1/Permissions?Page=1 - -
+2023-12-13 01:59:52.842 +07:00 [INF] Executing endpoint 'BlogApi.Controllers.PermissionsController.GetPermissions (BlogApi)'
+2023-12-13 01:59:52.842 +07:00 [INF] Route matched with {action = "GetPermissions", controller = "Permissions"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[BlogApi.Models.Response.BaseResponse]] GetPermissions(BlogApi.Models.Permission.PermissionFilter) on controller BlogApi.Controllers.PermissionsController (BlogApi).
+2023-12-13 01:59:52.844 +07:00 [INF] Before::{ "Page" : NumberLong(1), "PageSize" : NumberLong(10), "Name" : null, "ParentId" : null }
+2023-12-13 01:59:52.844 +07:00 [INF] After::{ "Page" : NumberLong(1), "PageSize" : NumberLong(10) }
+2023-12-13 02:11:17.806 +07:00 [INF] User profile is available. Using '/Users/kiennt/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2023-12-13 02:11:18.214 +07:00 [INF] Now listening on: https://localhost:7170
+2023-12-13 02:11:18.215 +07:00 [INF] Now listening on: http://localhost:5020
+2023-12-13 02:11:18.217 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-13 02:11:18.218 +07:00 [INF] Hosting environment: Development
+2023-12-13 02:11:18.218 +07:00 [INF] Content root path: /Users/kiennt/Documents/projects/blog/BlogApi
+2023-12-13 02:11:18.471 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:7170/swagger/index.html - -
+2023-12-13 02:11:18.645 +07:00 [INF] Request finished HTTP/1.1 GET https://localhost:7170/swagger/index.html - - - 200 - text/html;charset=utf-8 176.9504ms
+2023-12-13 02:11:18.869 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:7170/swagger/v1/swagger.json - -
+2023-12-13 02:11:19.041 +07:00 [INF] Request finished HTTP/1.1 GET https://localhost:7170/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 171.6095ms
+2023-12-13 02:11:22.046 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:7170/v1/Permissions?Page=1 - -
+2023-12-13 02:11:22.218 +07:00 [INF] Executing endpoint 'BlogApi.Controllers.PermissionsController.GetPermissions (BlogApi)'
+2023-12-13 02:11:22.251 +07:00 [INF] Route matched with {action = "GetPermissions", controller = "Permissions"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[BlogApi.Models.Response.BaseResponse]] GetPermissions(BlogApi.Models.Permission.PermissionFilter) on controller BlogApi.Controllers.PermissionsController (BlogApi).
+2023-12-13 02:11:22.295 +07:00 [INF] Before::{ "Page" : NumberLong(1), "PageSize" : NumberLong(10), "Name" : null, "ParentId" : null }
+2023-12-13 02:11:22.296 +07:00 [INF] After::{ "Page" : NumberLong(1), "PageSize" : NumberLong(10) }
+2023-12-13 02:11:57.148 +07:00 [INF] User profile is available. Using '/Users/kiennt/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2023-12-13 02:11:57.547 +07:00 [INF] Now listening on: https://localhost:7170
+2023-12-13 02:11:57.548 +07:00 [INF] Now listening on: http://localhost:5020
+2023-12-13 02:11:57.551 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-13 02:11:57.551 +07:00 [INF] Hosting environment: Development
+2023-12-13 02:11:57.551 +07:00 [INF] Content root path: /Users/kiennt/Documents/projects/blog/BlogApi
+2023-12-13 02:11:57.804 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:7170/swagger/index.html - -
+2023-12-13 02:11:57.983 +07:00 [INF] Request finished HTTP/1.1 GET https://localhost:7170/swagger/index.html - - - 200 - text/html;charset=utf-8 180.5883ms
+2023-12-13 02:11:58.212 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:7170/swagger/v1/swagger.json - -
+2023-12-13 02:11:58.390 +07:00 [INF] Request finished HTTP/1.1 GET https://localhost:7170/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 178.2540ms
+2023-12-13 02:12:01.083 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:7170/v1/Permissions?Page=1 - -
+2023-12-13 02:12:01.236 +07:00 [INF] Executing endpoint 'BlogApi.Controllers.PermissionsController.GetPermissions (BlogApi)'
+2023-12-13 02:12:01.267 +07:00 [INF] Route matched with {action = "GetPermissions", controller = "Permissions"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[BlogApi.Models.Response.BaseResponse]] GetPermissions(BlogApi.Models.Permission.PermissionFilter) on controller BlogApi.Controllers.PermissionsController (BlogApi).
+2023-12-13 02:12:01.311 +07:00 [INF] Before::{ "Page" : NumberLong(1), "PageSize" : NumberLong(10), "Name" : null, "ParentId" : null }
+2023-12-13 02:12:01.311 +07:00 [INF] After::{ "Page" : NumberLong(1), "PageSize" : NumberLong(10) }
+2023-12-13 02:12:26.641 +07:00 [INF] Executing OkObjectResult, writing value of type 'BlogApi.Models.Response.BaseResponse'.
+2023-12-13 02:12:26.676 +07:00 [INF] Executed action BlogApi.Controllers.PermissionsController.GetPermissions (BlogApi) in 25404.6469ms
+2023-12-13 02:12:26.679 +07:00 [INF] Executed endpoint 'BlogApi.Controllers.PermissionsController.GetPermissions (BlogApi)'
+2023-12-13 02:12:26.683 +07:00 [INF] HTTP GET /v1/Permissions responded 200 in 25595.8640 ms
+2023-12-13 02:12:26.686 +07:00 [INF] Request finished HTTP/1.1 GET https://localhost:7170/v1/Permissions?Page=1 - - - 200 - application/json;+charset=utf-8 25602.9104ms
+2023-12-13 02:12:49.271 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:7170/v1/Permissions?Page=2 - -
+2023-12-13 02:12:49.318 +07:00 [INF] Executing endpoint 'BlogApi.Controllers.PermissionsController.GetPermissions (BlogApi)'
+2023-12-13 02:12:49.319 +07:00 [INF] Route matched with {action = "GetPermissions", controller = "Permissions"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[BlogApi.Models.Response.BaseResponse]] GetPermissions(BlogApi.Models.Permission.PermissionFilter) on controller BlogApi.Controllers.PermissionsController (BlogApi).
+2023-12-13 02:12:49.321 +07:00 [INF] Before::{ "Page" : NumberLong(2), "PageSize" : NumberLong(10), "Name" : null, "ParentId" : null }
+2023-12-13 02:12:49.321 +07:00 [INF] After::{ "Page" : NumberLong(2), "PageSize" : NumberLong(10) }
+2023-12-13 02:12:53.123 +07:00 [INF] Executing OkObjectResult, writing value of type 'BlogApi.Models.Response.BaseResponse'.
+2023-12-13 02:12:53.124 +07:00 [INF] Executed action BlogApi.Controllers.PermissionsController.GetPermissions (BlogApi) in 3805.0526ms
+2023-12-13 02:12:53.124 +07:00 [INF] Executed endpoint 'BlogApi.Controllers.PermissionsController.GetPermissions (BlogApi)'
+2023-12-13 02:12:53.124 +07:00 [INF] HTTP GET /v1/Permissions responded 200 in 3853.3440 ms
+2023-12-13 02:12:53.125 +07:00 [INF] Request finished HTTP/1.1 GET https://localhost:7170/v1/Permissions?Page=2 - - - 200 - application/json;+charset=utf-8 3854.0319ms
+2023-12-13 02:13:20.799 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:7170/v1/Permissions?Page=2 - -
+2023-12-13 02:13:20.812 +07:00 [INF] Executing endpoint 'BlogApi.Controllers.PermissionsController.GetPermissions (BlogApi)'
+2023-12-13 02:13:20.812 +07:00 [INF] Route matched with {action = "GetPermissions", controller = "Permissions"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[BlogApi.Models.Response.BaseResponse]] GetPermissions(BlogApi.Models.Permission.PermissionFilter) on controller BlogApi.Controllers.PermissionsController (BlogApi).
+2023-12-13 02:13:20.813 +07:00 [INF] Before::{ "Page" : NumberLong(2), "PageSize" : NumberLong(10), "Name" : null, "ParentId" : null }
+2023-12-13 02:13:20.813 +07:00 [INF] After::{ "Page" : NumberLong(2), "PageSize" : NumberLong(10) }
+2023-12-13 02:13:21.021 +07:00 [INF] Executing OkObjectResult, writing value of type 'BlogApi.Models.Response.BaseResponse'.
+2023-12-13 02:13:21.022 +07:00 [INF] Executed action BlogApi.Controllers.PermissionsController.GetPermissions (BlogApi) in 209.5866ms
+2023-12-13 02:13:21.022 +07:00 [INF] Executed endpoint 'BlogApi.Controllers.PermissionsController.GetPermissions (BlogApi)'
+2023-12-13 02:13:21.022 +07:00 [INF] HTTP GET /v1/Permissions responded 200 in 219.9068 ms
+2023-12-13 02:13:21.023 +07:00 [INF] Request finished HTTP/1.1 GET https://localhost:7170/v1/Permissions?Page=2 - - - 200 - application/json;+charset=utf-8 223.3987ms
+2023-12-13 02:13:27.446 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:7170/v1/Permissions?Page=3 - -
+2023-12-13 02:13:27.464 +07:00 [INF] Executing endpoint 'BlogApi.Controllers.PermissionsController.GetPermissions (BlogApi)'
+2023-12-13 02:13:27.464 +07:00 [INF] Route matched with {action = "GetPermissions", controller = "Permissions"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[BlogApi.Models.Response.BaseResponse]] GetPermissions(BlogApi.Models.Permission.PermissionFilter) on controller BlogApi.Controllers.PermissionsController (BlogApi).
+2023-12-13 02:13:27.464 +07:00 [INF] Before::{ "Page" : NumberLong(3), "PageSize" : NumberLong(10), "Name" : null, "ParentId" : null }
+2023-12-13 02:13:27.464 +07:00 [INF] After::{ "Page" : NumberLong(3), "PageSize" : NumberLong(10) }
+2023-12-13 02:13:27.561 +07:00 [INF] Executing OkObjectResult, writing value of type 'BlogApi.Models.Response.BaseResponse'.
+2023-12-13 02:13:27.563 +07:00 [INF] Executed action BlogApi.Controllers.PermissionsController.GetPermissions (BlogApi) in 98.5511ms
+2023-12-13 02:13:27.563 +07:00 [INF] Executed endpoint 'BlogApi.Controllers.PermissionsController.GetPermissions (BlogApi)'
+2023-12-13 02:13:27.563 +07:00 [INF] HTTP GET /v1/Permissions responded 200 in 99.2879 ms
+2023-12-13 02:13:27.563 +07:00 [INF] Request finished HTTP/1.1 GET https://localhost:7170/v1/Permissions?Page=3 - - - 200 - application/json;+charset=utf-8 117.1958ms
+2023-12-13 02:13:42.588 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:7170/v1/Permissions?Page=3 - -
+2023-12-13 02:13:42.588 +07:00 [INF] Executing endpoint 'BlogApi.Controllers.PermissionsController.GetPermissions (BlogApi)'
+2023-12-13 02:13:42.588 +07:00 [INF] Route matched with {action = "GetPermissions", controller = "Permissions"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[BlogApi.Models.Response.BaseResponse]] GetPermissions(BlogApi.Models.Permission.PermissionFilter) on controller BlogApi.Controllers.PermissionsController (BlogApi).
+2023-12-13 02:13:42.589 +07:00 [INF] Before::{ "Page" : NumberLong(3), "PageSize" : NumberLong(10), "Name" : null, "ParentId" : null }
+2023-12-13 02:13:42.589 +07:00 [INF] After::{ "Page" : NumberLong(3), "PageSize" : NumberLong(10) }
+2023-12-13 02:13:51.105 +07:00 [INF] Executing OkObjectResult, writing value of type 'BlogApi.Models.Response.BaseResponse'.
+2023-12-13 02:13:51.127 +07:00 [INF] Executed action BlogApi.Controllers.PermissionsController.GetPermissions (BlogApi) in 8538.564ms
+2023-12-13 02:13:51.127 +07:00 [INF] Executed endpoint 'BlogApi.Controllers.PermissionsController.GetPermissions (BlogApi)'
+2023-12-13 02:13:51.127 +07:00 [INF] HTTP GET /v1/Permissions responded 200 in 8539.2744 ms
+2023-12-13 02:13:51.127 +07:00 [INF] Request finished HTTP/1.1 GET https://localhost:7170/v1/Permissions?Page=3 - - - 200 - application/json;+charset=utf-8 8539.6553ms
+2023-12-13 02:15:08.125 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:7170/v1/Permissions?Page=1 - -
+2023-12-13 02:15:08.131 +07:00 [INF] Executing endpoint 'BlogApi.Controllers.PermissionsController.GetPermissions (BlogApi)'
+2023-12-13 02:15:08.131 +07:00 [INF] Route matched with {action = "GetPermissions", controller = "Permissions"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[BlogApi.Models.Response.BaseResponse]] GetPermissions(BlogApi.Models.Permission.PermissionFilter) on controller BlogApi.Controllers.PermissionsController (BlogApi).
+2023-12-13 02:15:08.131 +07:00 [INF] Before::{ "Page" : NumberLong(1), "PageSize" : NumberLong(10), "Name" : null, "ParentId" : null }
+2023-12-13 02:15:08.131 +07:00 [INF] After::{ "Page" : NumberLong(1), "PageSize" : NumberLong(10) }
+2023-12-13 02:15:08.263 +07:00 [INF] Executing OkObjectResult, writing value of type 'BlogApi.Models.Response.BaseResponse'.
+2023-12-13 02:15:08.265 +07:00 [INF] Executed action BlogApi.Controllers.PermissionsController.GetPermissions (BlogApi) in 134.0524ms
+2023-12-13 02:15:08.265 +07:00 [INF] Executed endpoint 'BlogApi.Controllers.PermissionsController.GetPermissions (BlogApi)'
+2023-12-13 02:15:08.265 +07:00 [INF] HTTP GET /v1/Permissions responded 200 in 137.4274 ms
+2023-12-13 02:15:08.266 +07:00 [INF] Request finished HTTP/1.1 GET https://localhost:7170/v1/Permissions?Page=1 - - - 200 - application/json;+charset=utf-8 140.6568ms
+2023-12-13 02:15:17.890 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:7170/v1/Permissions?Page=2 - -
+2023-12-13 02:15:17.891 +07:00 [INF] Executing endpoint 'BlogApi.Controllers.PermissionsController.GetPermissions (BlogApi)'
+2023-12-13 02:15:17.891 +07:00 [INF] Route matched with {action = "GetPermissions", controller = "Permissions"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[BlogApi.Models.Response.BaseResponse]] GetPermissions(BlogApi.Models.Permission.PermissionFilter) on controller BlogApi.Controllers.PermissionsController (BlogApi).
+2023-12-13 02:15:17.891 +07:00 [INF] Before::{ "Page" : NumberLong(2), "PageSize" : NumberLong(10), "Name" : null, "ParentId" : null }
+2023-12-13 02:15:17.891 +07:00 [INF] After::{ "Page" : NumberLong(2), "PageSize" : NumberLong(10) }
+2023-12-13 02:15:17.986 +07:00 [INF] Executing OkObjectResult, writing value of type 'BlogApi.Models.Response.BaseResponse'.
+2023-12-13 02:15:17.989 +07:00 [INF] Executed action BlogApi.Controllers.PermissionsController.GetPermissions (BlogApi) in 97.5318ms
+2023-12-13 02:15:17.989 +07:00 [INF] Executed endpoint 'BlogApi.Controllers.PermissionsController.GetPermissions (BlogApi)'
+2023-12-13 02:15:17.989 +07:00 [INF] HTTP GET /v1/Permissions responded 200 in 98.2273 ms
+2023-12-13 02:15:17.989 +07:00 [INF] Request finished HTTP/1.1 GET https://localhost:7170/v1/Permissions?Page=2 - - - 200 - application/json;+charset=utf-8 98.7714ms
+2023-12-13 02:15:31.034 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:7170/v1/Permissions?Page=1&PageSize=5 - -
+2023-12-13 02:15:31.034 +07:00 [INF] Executing endpoint 'BlogApi.Controllers.PermissionsController.GetPermissions (BlogApi)'
+2023-12-13 02:15:31.034 +07:00 [INF] Route matched with {action = "GetPermissions", controller = "Permissions"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[BlogApi.Models.Response.BaseResponse]] GetPermissions(BlogApi.Models.Permission.PermissionFilter) on controller BlogApi.Controllers.PermissionsController (BlogApi).
+2023-12-13 02:15:31.035 +07:00 [INF] Before::{ "Page" : NumberLong(1), "PageSize" : NumberLong(5), "Name" : null, "ParentId" : null }
+2023-12-13 02:15:31.035 +07:00 [INF] After::{ "Page" : NumberLong(1), "PageSize" : NumberLong(5) }
+2023-12-13 02:15:31.107 +07:00 [INF] Executing OkObjectResult, writing value of type 'BlogApi.Models.Response.BaseResponse'.
+2023-12-13 02:15:31.107 +07:00 [INF] Executed action BlogApi.Controllers.PermissionsController.GetPermissions (BlogApi) in 72.7216ms
+2023-12-13 02:15:31.108 +07:00 [INF] Executed endpoint 'BlogApi.Controllers.PermissionsController.GetPermissions (BlogApi)'
+2023-12-13 02:15:31.108 +07:00 [INF] HTTP GET /v1/Permissions responded 200 in 73.6405 ms
+2023-12-13 02:15:31.108 +07:00 [INF] Request finished HTTP/1.1 GET https://localhost:7170/v1/Permissions?Page=1&PageSize=5 - - - 200 - application/json;+charset=utf-8 74.0131ms
+2023-12-13 02:15:43.063 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:7170/v1/Permissions?Page=4&PageSize=5 - -
+2023-12-13 02:15:43.063 +07:00 [INF] Executing endpoint 'BlogApi.Controllers.PermissionsController.GetPermissions (BlogApi)'
+2023-12-13 02:15:43.063 +07:00 [INF] Route matched with {action = "GetPermissions", controller = "Permissions"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[BlogApi.Models.Response.BaseResponse]] GetPermissions(BlogApi.Models.Permission.PermissionFilter) on controller BlogApi.Controllers.PermissionsController (BlogApi).
+2023-12-13 02:15:43.064 +07:00 [INF] Before::{ "Page" : NumberLong(4), "PageSize" : NumberLong(5), "Name" : null, "ParentId" : null }
+2023-12-13 02:15:43.064 +07:00 [INF] After::{ "Page" : NumberLong(4), "PageSize" : NumberLong(5) }
+2023-12-13 02:15:43.077 +07:00 [INF] Executing OkObjectResult, writing value of type 'BlogApi.Models.Response.BaseResponse'.
+2023-12-13 02:15:43.077 +07:00 [INF] Executed action BlogApi.Controllers.PermissionsController.GetPermissions (BlogApi) in 14.121ms
+2023-12-13 02:15:43.077 +07:00 [INF] Executed endpoint 'BlogApi.Controllers.PermissionsController.GetPermissions (BlogApi)'
+2023-12-13 02:15:43.078 +07:00 [INF] HTTP GET /v1/Permissions responded 200 in 14.6306 ms
+2023-12-13 02:15:43.078 +07:00 [INF] Request finished HTTP/1.1 GET https://localhost:7170/v1/Permissions?Page=4&PageSize=5 - - - 200 - application/json;+charset=utf-8 15.0447ms
+2023-12-13 02:16:11.425 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:7170/v1/Permissions?ParentId=null&Page=4&PageSize=5 - -
+2023-12-13 02:16:11.433 +07:00 [INF] Executing endpoint 'BlogApi.Controllers.PermissionsController.GetPermissions (BlogApi)'
+2023-12-13 02:16:11.434 +07:00 [INF] Route matched with {action = "GetPermissions", controller = "Permissions"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[BlogApi.Models.Response.BaseResponse]] GetPermissions(BlogApi.Models.Permission.PermissionFilter) on controller BlogApi.Controllers.PermissionsController (BlogApi).
+2023-12-13 02:16:11.543 +07:00 [INF] Executed action BlogApi.Controllers.PermissionsController.GetPermissions (BlogApi) in 109.1919ms
+2023-12-13 02:16:11.543 +07:00 [INF] Executed endpoint 'BlogApi.Controllers.PermissionsController.GetPermissions (BlogApi)'
+2023-12-13 02:16:11.576 +07:00 [ERR] HTTP GET /v1/Permissions responded 500 in 143.1790 ms
+MongoDB.Bson.BsonSerializationException: An error occurred while serializing the ParentId property of class BlogApi.Models.Permission.PermissionFilter: 'null' is not a valid 24 digit hex string.
+ ---> System.FormatException: 'null' is not a valid 24 digit hex string.
+   at MongoDB.Bson.ObjectId.Parse(String s)
+   at MongoDB.Bson.Serialization.Serializers.StringSerializer.SerializeValue(BsonSerializationContext context, BsonSerializationArgs args, String value)
+   at MongoDB.Bson.Serialization.Serializers.SealedClassSerializerBase`1.Serialize(BsonSerializationContext context, BsonSerializationArgs args, TValue value)
+   at MongoDB.Bson.Serialization.IBsonSerializerExtensions.Serialize(IBsonSerializer serializer, BsonSerializationContext context, Object value)
+   at MongoDB.Bson.Serialization.BsonClassMapSerializer`1.SerializeMember(BsonSerializationContext context, Object obj, BsonMemberMap memberMap)
+   --- End of inner exception stack trace ---
+   at MongoDB.Bson.Serialization.BsonClassMapSerializer`1.SerializeMember(BsonSerializationContext context, Object obj, BsonMemberMap memberMap)
+   at MongoDB.Bson.Serialization.BsonClassMapSerializer`1.SerializeClass(BsonSerializationContext context, BsonSerializationArgs args, TClass document)
+   at MongoDB.Bson.Serialization.BsonClassMapSerializer`1.Serialize(BsonSerializationContext context, BsonSerializationArgs args, TClass value)
+   at MongoDB.Bson.BsonExtensionMethods.ToJson(Object obj, Type nominalType, JsonWriterSettings writerSettings, IBsonSerializer serializer, Action`1 configurator, BsonSerializationArgs args)
+   at MongoDB.Bson.BsonExtensionMethods.ToJson[TNominalType](TNominalType obj, JsonWriterSettings writerSettings, IBsonSerializer`1 serializer, Action`1 configurator, BsonSerializationArgs args)
+   at BlogApi.Controllers.PermissionsController.GetPermissions(PermissionFilter permissionFilter) in /Users/kiennt/Documents/projects/blog/BlogApi/Controllers/PermissionsController.cs:line 34
+   at lambda_method13(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at BlogApi.Middlewares.JWTMiddleware.InvokeAsync(HttpContext httpContext) in /Users/kiennt/Documents/projects/blog/BlogApi/Middlewares/JWTMiddleware.cs:line 17
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2023-12-13 02:16:11.633 +07:00 [ERR] An unhandled exception has occurred while executing the request.
+MongoDB.Bson.BsonSerializationException: An error occurred while serializing the ParentId property of class BlogApi.Models.Permission.PermissionFilter: 'null' is not a valid 24 digit hex string.
+ ---> System.FormatException: 'null' is not a valid 24 digit hex string.
+   at MongoDB.Bson.ObjectId.Parse(String s)
+   at MongoDB.Bson.Serialization.Serializers.StringSerializer.SerializeValue(BsonSerializationContext context, BsonSerializationArgs args, String value)
+   at MongoDB.Bson.Serialization.Serializers.SealedClassSerializerBase`1.Serialize(BsonSerializationContext context, BsonSerializationArgs args, TValue value)
+   at MongoDB.Bson.Serialization.IBsonSerializerExtensions.Serialize(IBsonSerializer serializer, BsonSerializationContext context, Object value)
+   at MongoDB.Bson.Serialization.BsonClassMapSerializer`1.SerializeMember(BsonSerializationContext context, Object obj, BsonMemberMap memberMap)
+   --- End of inner exception stack trace ---
+   at MongoDB.Bson.Serialization.BsonClassMapSerializer`1.SerializeMember(BsonSerializationContext context, Object obj, BsonMemberMap memberMap)
+   at MongoDB.Bson.Serialization.BsonClassMapSerializer`1.SerializeClass(BsonSerializationContext context, BsonSerializationArgs args, TClass document)
+   at MongoDB.Bson.Serialization.BsonClassMapSerializer`1.Serialize(BsonSerializationContext context, BsonSerializationArgs args, TClass value)
+   at MongoDB.Bson.BsonExtensionMethods.ToJson(Object obj, Type nominalType, JsonWriterSettings writerSettings, IBsonSerializer serializer, Action`1 configurator, BsonSerializationArgs args)
+   at MongoDB.Bson.BsonExtensionMethods.ToJson[TNominalType](TNominalType obj, JsonWriterSettings writerSettings, IBsonSerializer`1 serializer, Action`1 configurator, BsonSerializationArgs args)
+   at BlogApi.Controllers.PermissionsController.GetPermissions(PermissionFilter permissionFilter) in /Users/kiennt/Documents/projects/blog/BlogApi/Controllers/PermissionsController.cs:line 34
+   at lambda_method13(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at BlogApi.Middlewares.JWTMiddleware.InvokeAsync(HttpContext httpContext) in /Users/kiennt/Documents/projects/blog/BlogApi/Middlewares/JWTMiddleware.cs:line 17
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2023-12-13 02:16:11.640 +07:00 [INF] Request finished HTTP/1.1 GET https://localhost:7170/v1/Permissions?ParentId=null&Page=4&PageSize=5 - - - 500 - text/plain;+charset=utf-8 214.8006ms
+2023-12-13 02:20:22.794 +07:00 [INF] User profile is available. Using '/Users/kiennt/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2023-12-13 02:20:23.193 +07:00 [INF] Now listening on: https://localhost:7170
+2023-12-13 02:20:23.194 +07:00 [INF] Now listening on: http://localhost:5020
+2023-12-13 02:20:23.196 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-13 02:20:23.197 +07:00 [INF] Hosting environment: Development
+2023-12-13 02:20:23.197 +07:00 [INF] Content root path: /Users/kiennt/Documents/projects/blog/BlogApi
+2023-12-13 02:20:23.437 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:7170/swagger/index.html - -
+2023-12-13 02:20:23.609 +07:00 [INF] Request finished HTTP/1.1 GET https://localhost:7170/swagger/index.html - - - 200 - text/html;charset=utf-8 174.9934ms
+2023-12-13 02:20:23.831 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:7170/swagger/v1/swagger.json - -
+2023-12-13 02:20:24.002 +07:00 [INF] Request finished HTTP/1.1 GET https://localhost:7170/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 171.2892ms
+2023-12-13 02:20:28.001 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:7170/v1/Permissions?ParentId=null&Page=4&PageSize=5 - -
+2023-12-13 02:20:28.143 +07:00 [INF] Executing endpoint 'BlogApi.Controllers.PermissionsController.GetPermissions (BlogApi)'
+2023-12-13 02:20:28.175 +07:00 [INF] Route matched with {action = "GetPermissions", controller = "Permissions"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[BlogApi.Models.Response.BaseResponse]] GetPermissions(BlogApi.Models.Permission.PermissionFilter) on controller BlogApi.Controllers.PermissionsController (BlogApi).
+2023-12-13 02:20:28.342 +07:00 [INF] Executed action BlogApi.Controllers.PermissionsController.GetPermissions (BlogApi) in 162.0297ms
+2023-12-13 02:20:28.345 +07:00 [INF] Executed endpoint 'BlogApi.Controllers.PermissionsController.GetPermissions (BlogApi)'
+2023-12-13 02:20:28.383 +07:00 [ERR] HTTP GET /v1/Permissions responded 500 in 376.9456 ms
+MongoDB.Bson.BsonSerializationException: An error occurred while serializing the ParentId property of class BlogApi.Models.Permission.PermissionFilter: 'null' is not a valid 24 digit hex string.
+ ---> System.FormatException: 'null' is not a valid 24 digit hex string.
+   at MongoDB.Bson.ObjectId.Parse(String s)
+   at MongoDB.Bson.Serialization.Serializers.StringSerializer.SerializeValue(BsonSerializationContext context, BsonSerializationArgs args, String value)
+   at MongoDB.Bson.Serialization.Serializers.SealedClassSerializerBase`1.Serialize(BsonSerializationContext context, BsonSerializationArgs args, TValue value)
+   at MongoDB.Bson.Serialization.Serializers.SerializerBase`1.MongoDB.Bson.Serialization.IBsonSerializer.Serialize(BsonSerializationContext context, BsonSerializationArgs args, Object value)
+   at MongoDB.Bson.Serialization.IBsonSerializerExtensions.Serialize(IBsonSerializer serializer, BsonSerializationContext context, Object value)
+   at MongoDB.Bson.Serialization.BsonClassMapSerializer`1.SerializeNormalMember(BsonSerializationContext context, Object obj, BsonMemberMap memberMap)
+   at MongoDB.Bson.Serialization.BsonClassMapSerializer`1.SerializeMember(BsonSerializationContext context, Object obj, BsonMemberMap memberMap)
+   --- End of inner exception stack trace ---
+   at MongoDB.Bson.Serialization.BsonClassMapSerializer`1.SerializeMember(BsonSerializationContext context, Object obj, BsonMemberMap memberMap)
+   at MongoDB.Bson.Serialization.BsonClassMapSerializer`1.SerializeClass(BsonSerializationContext context, BsonSerializationArgs args, TClass document)
+   at MongoDB.Bson.Serialization.BsonClassMapSerializer`1.Serialize(BsonSerializationContext context, BsonSerializationArgs args, TClass value)
+   at MongoDB.Bson.Serialization.Serializers.SerializerBase`1.MongoDB.Bson.Serialization.IBsonSerializer.Serialize(BsonSerializationContext context, BsonSerializationArgs args, Object value)
+   at MongoDB.Bson.BsonExtensionMethods.ToJson(Object obj, Type nominalType, JsonWriterSettings writerSettings, IBsonSerializer serializer, Action`1 configurator, BsonSerializationArgs args)
+   at MongoDB.Bson.BsonExtensionMethods.ToJson[TNominalType](TNominalType obj, JsonWriterSettings writerSettings, IBsonSerializer`1 serializer, Action`1 configurator, BsonSerializationArgs args)
+   at BlogApi.Controllers.PermissionsController.GetPermissions(PermissionFilter permissionFilter) in /Users/kiennt/Documents/projects/blog/BlogApi/Controllers/PermissionsController.cs:line 34
+   at lambda_method13(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at BlogApi.Middlewares.JWTMiddleware.InvokeAsync(HttpContext httpContext) in /Users/kiennt/Documents/projects/blog/BlogApi/Middlewares/JWTMiddleware.cs:line 18
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2023-12-13 02:20:28.442 +07:00 [ERR] An unhandled exception has occurred while executing the request.
+MongoDB.Bson.BsonSerializationException: An error occurred while serializing the ParentId property of class BlogApi.Models.Permission.PermissionFilter: 'null' is not a valid 24 digit hex string.
+ ---> System.FormatException: 'null' is not a valid 24 digit hex string.
+   at MongoDB.Bson.ObjectId.Parse(String s)
+   at MongoDB.Bson.Serialization.Serializers.StringSerializer.SerializeValue(BsonSerializationContext context, BsonSerializationArgs args, String value)
+   at MongoDB.Bson.Serialization.Serializers.SealedClassSerializerBase`1.Serialize(BsonSerializationContext context, BsonSerializationArgs args, TValue value)
+   at MongoDB.Bson.Serialization.Serializers.SerializerBase`1.MongoDB.Bson.Serialization.IBsonSerializer.Serialize(BsonSerializationContext context, BsonSerializationArgs args, Object value)
+   at MongoDB.Bson.Serialization.IBsonSerializerExtensions.Serialize(IBsonSerializer serializer, BsonSerializationContext context, Object value)
+   at MongoDB.Bson.Serialization.BsonClassMapSerializer`1.SerializeNormalMember(BsonSerializationContext context, Object obj, BsonMemberMap memberMap)
+   at MongoDB.Bson.Serialization.BsonClassMapSerializer`1.SerializeMember(BsonSerializationContext context, Object obj, BsonMemberMap memberMap)
+   --- End of inner exception stack trace ---
+   at MongoDB.Bson.Serialization.BsonClassMapSerializer`1.SerializeMember(BsonSerializationContext context, Object obj, BsonMemberMap memberMap)
+   at MongoDB.Bson.Serialization.BsonClassMapSerializer`1.SerializeClass(BsonSerializationContext context, BsonSerializationArgs args, TClass document)
+   at MongoDB.Bson.Serialization.BsonClassMapSerializer`1.Serialize(BsonSerializationContext context, BsonSerializationArgs args, TClass value)
+   at MongoDB.Bson.Serialization.Serializers.SerializerBase`1.MongoDB.Bson.Serialization.IBsonSerializer.Serialize(BsonSerializationContext context, BsonSerializationArgs args, Object value)
+   at MongoDB.Bson.BsonExtensionMethods.ToJson(Object obj, Type nominalType, JsonWriterSettings writerSettings, IBsonSerializer serializer, Action`1 configurator, BsonSerializationArgs args)
+   at MongoDB.Bson.BsonExtensionMethods.ToJson[TNominalType](TNominalType obj, JsonWriterSettings writerSettings, IBsonSerializer`1 serializer, Action`1 configurator, BsonSerializationArgs args)
+   at BlogApi.Controllers.PermissionsController.GetPermissions(PermissionFilter permissionFilter) in /Users/kiennt/Documents/projects/blog/BlogApi/Controllers/PermissionsController.cs:line 34
+   at lambda_method13(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at BlogApi.Middlewares.JWTMiddleware.InvokeAsync(HttpContext httpContext) in /Users/kiennt/Documents/projects/blog/BlogApi/Middlewares/JWTMiddleware.cs:line 18
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2023-12-13 02:20:28.451 +07:00 [INF] Request finished HTTP/1.1 GET https://localhost:7170/v1/Permissions?ParentId=null&Page=4&PageSize=5 - - - 500 - text/plain;+charset=utf-8 449.0554ms
+2023-12-13 02:26:32.998 +07:00 [INF] User profile is available. Using '/Users/kiennt/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2023-12-13 02:26:33.385 +07:00 [INF] Now listening on: https://localhost:7170
+2023-12-13 02:26:33.386 +07:00 [INF] Now listening on: http://localhost:5020
+2023-12-13 02:26:33.389 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-13 02:26:33.389 +07:00 [INF] Hosting environment: Development
+2023-12-13 02:26:33.389 +07:00 [INF] Content root path: /Users/kiennt/Documents/projects/blog/BlogApi
+2023-12-13 02:26:33.654 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:7170/swagger/index.html - -
+2023-12-13 02:26:33.829 +07:00 [INF] Request finished HTTP/1.1 GET https://localhost:7170/swagger/index.html - - - 200 - text/html;charset=utf-8 176.2684ms
+2023-12-13 02:26:34.051 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:7170/swagger/v1/swagger.json - -
+2023-12-13 02:26:34.224 +07:00 [INF] Request finished HTTP/1.1 GET https://localhost:7170/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 173.5154ms
+2023-12-13 02:26:40.273 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:7170/v1/Permissions?ParentId=null&Page=4&PageSize=5 - -
+2023-12-13 02:26:40.413 +07:00 [INF] Executing endpoint 'BlogApi.Controllers.PermissionsController.GetPermissions (BlogApi)'
+2023-12-13 02:26:40.443 +07:00 [INF] Route matched with {action = "GetPermissions", controller = "Permissions"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[BlogApi.Models.Response.BaseResponse]] GetPermissions(BlogApi.Models.Permission.PermissionFilter) on controller BlogApi.Controllers.PermissionsController (BlogApi).
+2023-12-13 02:26:40.612 +07:00 [INF] Executed action BlogApi.Controllers.PermissionsController.GetPermissions (BlogApi) in 163.8516ms
+2023-12-13 02:26:40.615 +07:00 [INF] Executed endpoint 'BlogApi.Controllers.PermissionsController.GetPermissions (BlogApi)'
+2023-12-13 02:31:06.052 +07:00 [INF] HTTP GET /v1/Permissions responded 200 in 265710.2642 ms
+2023-12-13 02:31:06.053 +07:00 [INF] Request finished HTTP/1.1 GET https://localhost:7170/v1/Permissions?ParentId=null&Page=4&PageSize=5 - - - 200 0 - 265779.8961ms
+2023-12-13 02:32:57.797 +07:00 [INF] User profile is available. Using '/Users/kiennt/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2023-12-13 02:32:58.208 +07:00 [INF] Now listening on: https://localhost:7170
+2023-12-13 02:32:58.209 +07:00 [INF] Now listening on: http://localhost:5020
+2023-12-13 02:32:58.211 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-13 02:32:58.212 +07:00 [INF] Hosting environment: Development
+2023-12-13 02:32:58.212 +07:00 [INF] Content root path: /Users/kiennt/Documents/projects/blog/BlogApi
+2023-12-13 02:32:58.425 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:7170/swagger/index.html - -
+2023-12-13 02:32:58.599 +07:00 [INF] Request finished HTTP/1.1 GET https://localhost:7170/swagger/index.html - - - 200 - text/html;charset=utf-8 176.3618ms
+2023-12-13 02:32:58.828 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:7170/swagger/v1/swagger.json - -
+2023-12-13 02:32:58.997 +07:00 [INF] Request finished HTTP/1.1 GET https://localhost:7170/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 169.0500ms
+2023-12-13 02:33:02.243 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:7170/v1/Permissions?ParentId=null&Page=4&PageSize=5 - -
+2023-12-13 02:33:02.387 +07:00 [INF] Executing endpoint 'BlogApi.Controllers.PermissionsController.GetPermissions (BlogApi)'
+2023-12-13 02:33:02.419 +07:00 [INF] Route matched with {action = "GetPermissions", controller = "Permissions"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[BlogApi.Models.Response.BaseResponse]] GetPermissions(BlogApi.Models.Permission.PermissionFilter) on controller BlogApi.Controllers.PermissionsController (BlogApi).
+2023-12-13 02:33:13.076 +07:00 [INF] Executing OkObjectResult, writing value of type 'BlogApi.Models.Response.BaseResponse'.
+2023-12-13 02:33:13.107 +07:00 [INF] Executed action BlogApi.Controllers.PermissionsController.GetPermissions (BlogApi) in 10683.4355ms
+2023-12-13 02:33:13.110 +07:00 [INF] Executed endpoint 'BlogApi.Controllers.PermissionsController.GetPermissions (BlogApi)'
+2023-12-13 02:33:13.114 +07:00 [INF] HTTP GET /v1/Permissions responded 200 in 10865.8312 ms
+2023-12-13 02:33:13.117 +07:00 [INF] Request finished HTTP/1.1 GET https://localhost:7170/v1/Permissions?ParentId=null&Page=4&PageSize=5 - - - 200 - application/json;+charset=utf-8 10873.3986ms
+2023-12-13 02:33:26.630 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:7170/v1/Permissions?ParentId=null&Page=4&PageSize=5 - -
+2023-12-13 02:33:26.633 +07:00 [INF] Executing endpoint 'BlogApi.Controllers.PermissionsController.GetPermissions (BlogApi)'
+2023-12-13 02:33:26.634 +07:00 [INF] Route matched with {action = "GetPermissions", controller = "Permissions"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[BlogApi.Models.Response.BaseResponse]] GetPermissions(BlogApi.Models.Permission.PermissionFilter) on controller BlogApi.Controllers.PermissionsController (BlogApi).
+2023-12-13 02:33:29.322 +07:00 [INF] Executing OkObjectResult, writing value of type 'BlogApi.Models.Response.BaseResponse'.
+2023-12-13 02:33:29.323 +07:00 [INF] Executed action BlogApi.Controllers.PermissionsController.GetPermissions (BlogApi) in 2688.9206ms
+2023-12-13 02:33:29.323 +07:00 [INF] Executed endpoint 'BlogApi.Controllers.PermissionsController.GetPermissions (BlogApi)'
+2023-12-13 02:33:29.324 +07:00 [INF] HTTP GET /v1/Permissions responded 200 in 2693.5199 ms
+2023-12-13 02:33:29.324 +07:00 [INF] Request finished HTTP/1.1 GET https://localhost:7170/v1/Permissions?ParentId=null&Page=4&PageSize=5 - - - 200 - application/json;+charset=utf-8 2694.0198ms
+2023-12-13 02:33:45.563 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:7170/v1/Permissions?ParentId=123&Page=4&PageSize=5 - -
+2023-12-13 02:33:45.566 +07:00 [INF] Executing endpoint 'BlogApi.Controllers.PermissionsController.GetPermissions (BlogApi)'
+2023-12-13 02:33:45.566 +07:00 [INF] Route matched with {action = "GetPermissions", controller = "Permissions"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[BlogApi.Models.Response.BaseResponse]] GetPermissions(BlogApi.Models.Permission.PermissionFilter) on controller BlogApi.Controllers.PermissionsController (BlogApi).
+2023-12-13 02:33:45.617 +07:00 [INF] Executing OkObjectResult, writing value of type 'BlogApi.Models.Response.BaseResponse'.
+2023-12-13 02:33:45.618 +07:00 [INF] Executed action BlogApi.Controllers.PermissionsController.GetPermissions (BlogApi) in 52.139ms
+2023-12-13 02:33:45.618 +07:00 [INF] Executed endpoint 'BlogApi.Controllers.PermissionsController.GetPermissions (BlogApi)'
+2023-12-13 02:33:45.618 +07:00 [INF] HTTP GET /v1/Permissions responded 200 in 55.6169 ms
+2023-12-13 02:33:45.619 +07:00 [INF] Request finished HTTP/1.1 GET https://localhost:7170/v1/Permissions?ParentId=123&Page=4&PageSize=5 - - - 200 - application/json;+charset=utf-8 56.0497ms
+2023-12-13 02:34:12.247 +07:00 [INF] User profile is available. Using '/Users/kiennt/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2023-12-13 02:34:12.650 +07:00 [INF] Now listening on: https://localhost:7170
+2023-12-13 02:34:12.652 +07:00 [INF] Now listening on: http://localhost:5020
+2023-12-13 02:34:12.653 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-13 02:34:12.654 +07:00 [INF] Hosting environment: Development
+2023-12-13 02:34:12.654 +07:00 [INF] Content root path: /Users/kiennt/Documents/projects/blog/BlogApi
+2023-12-13 02:34:12.924 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:7170/swagger/index.html - -
+2023-12-13 02:34:13.099 +07:00 [INF] Request finished HTTP/1.1 GET https://localhost:7170/swagger/index.html - - - 200 - text/html;charset=utf-8 177.0044ms
+2023-12-13 02:34:13.318 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:7170/swagger/v1/swagger.json - -
+2023-12-13 02:34:13.491 +07:00 [INF] Request finished HTTP/1.1 GET https://localhost:7170/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 172.9198ms
+2023-12-13 02:34:15.791 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:7170/v1/Permissions?ParentId=123&Page=4&PageSize=5 - -
+2023-12-13 02:34:15.931 +07:00 [INF] Executing endpoint 'BlogApi.Controllers.PermissionsController.GetPermissions (BlogApi)'
+2023-12-13 02:34:15.964 +07:00 [INF] Route matched with {action = "GetPermissions", controller = "Permissions"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[BlogApi.Models.Response.BaseResponse]] GetPermissions(BlogApi.Models.Permission.PermissionFilter) on controller BlogApi.Controllers.PermissionsController (BlogApi).
+2023-12-13 02:34:16.155 +07:00 [INF] Executing OkObjectResult, writing value of type 'BlogApi.Models.Response.BaseResponse'.
+2023-12-13 02:34:16.184 +07:00 [INF] Executed action BlogApi.Controllers.PermissionsController.GetPermissions (BlogApi) in 215.5967ms
+2023-12-13 02:34:16.187 +07:00 [INF] Executed endpoint 'BlogApi.Controllers.PermissionsController.GetPermissions (BlogApi)'
+2023-12-13 02:34:16.190 +07:00 [INF] HTTP GET /v1/Permissions responded 200 in 394.9807 ms
+2023-12-13 02:34:16.193 +07:00 [INF] Request finished HTTP/1.1 GET https://localhost:7170/v1/Permissions?ParentId=123&Page=4&PageSize=5 - - - 200 - application/json;+charset=utf-8 402.0238ms
+2023-12-13 02:34:50.917 +07:00 [INF] User profile is available. Using '/Users/kiennt/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2023-12-13 02:34:51.312 +07:00 [INF] Now listening on: https://localhost:7170
+2023-12-13 02:34:51.313 +07:00 [INF] Now listening on: http://localhost:5020
+2023-12-13 02:34:51.315 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-13 02:34:51.315 +07:00 [INF] Hosting environment: Development
+2023-12-13 02:34:51.315 +07:00 [INF] Content root path: /Users/kiennt/Documents/projects/blog/BlogApi
+2023-12-13 02:34:51.535 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:7170/swagger/index.html - -
+2023-12-13 02:34:51.706 +07:00 [INF] Request finished HTTP/1.1 GET https://localhost:7170/swagger/index.html - - - 200 - text/html;charset=utf-8 173.6892ms
+2023-12-13 02:34:51.930 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:7170/swagger/v1/swagger.json - -
+2023-12-13 02:34:52.102 +07:00 [INF] Request finished HTTP/1.1 GET https://localhost:7170/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 171.9072ms
+2023-12-13 02:34:55.991 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:7170/v1/Permissions?ParentId=123&Page=4&PageSize=5 - -
+2023-12-13 02:34:56.113 +07:00 [INF] Executing endpoint 'BlogApi.Controllers.PermissionsController.GetPermissions (BlogApi)'
+2023-12-13 02:34:56.146 +07:00 [INF] Route matched with {action = "GetPermissions", controller = "Permissions"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[BlogApi.Models.Response.BaseResponse]] GetPermissions(BlogApi.Models.Permission.PermissionFilter) on controller BlogApi.Controllers.PermissionsController (BlogApi).
+2023-12-13 02:34:56.339 +07:00 [INF] Executing OkObjectResult, writing value of type 'BlogApi.Models.Response.BaseResponse'.
+2023-12-13 02:34:56.367 +07:00 [INF] Executed action BlogApi.Controllers.PermissionsController.GetPermissions (BlogApi) in 217.1619ms
+2023-12-13 02:34:56.370 +07:00 [INF] Executed endpoint 'BlogApi.Controllers.PermissionsController.GetPermissions (BlogApi)'
+2023-12-13 02:34:56.374 +07:00 [INF] HTTP GET /v1/Permissions responded 200 in 378.0425 ms
+2023-12-13 02:34:56.377 +07:00 [INF] Request finished HTTP/1.1 GET https://localhost:7170/v1/Permissions?ParentId=123&Page=4&PageSize=5 - - - 200 - application/json;+charset=utf-8 385.1351ms
+2023-12-13 02:35:02.325 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:7170/v1/Permissions?Page=4&PageSize=5 - -
+2023-12-13 02:35:02.346 +07:00 [INF] Executing endpoint 'BlogApi.Controllers.PermissionsController.GetPermissions (BlogApi)'
+2023-12-13 02:35:02.347 +07:00 [INF] Route matched with {action = "GetPermissions", controller = "Permissions"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[BlogApi.Models.Response.BaseResponse]] GetPermissions(BlogApi.Models.Permission.PermissionFilter) on controller BlogApi.Controllers.PermissionsController (BlogApi).
+2023-12-13 02:35:02.359 +07:00 [INF] Executing OkObjectResult, writing value of type 'BlogApi.Models.Response.BaseResponse'.
+2023-12-13 02:35:02.365 +07:00 [INF] Executed action BlogApi.Controllers.PermissionsController.GetPermissions (BlogApi) in 18.1139ms
+2023-12-13 02:35:02.365 +07:00 [INF] Executed endpoint 'BlogApi.Controllers.PermissionsController.GetPermissions (BlogApi)'
+2023-12-13 02:35:02.365 +07:00 [INF] HTTP GET /v1/Permissions responded 200 in 22.5741 ms
+2023-12-13 02:35:02.366 +07:00 [INF] Request finished HTTP/1.1 GET https://localhost:7170/v1/Permissions?Page=4&PageSize=5 - - - 200 - application/json;+charset=utf-8 40.1572ms
+2023-12-13 02:35:11.316 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:7170/v1/Permissions?ParentId=null&Page=1&PageSize=5 - -
+2023-12-13 02:35:11.319 +07:00 [INF] Executing endpoint 'BlogApi.Controllers.PermissionsController.GetPermissions (BlogApi)'
+2023-12-13 02:35:11.319 +07:00 [INF] Route matched with {action = "GetPermissions", controller = "Permissions"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[BlogApi.Models.Response.BaseResponse]] GetPermissions(BlogApi.Models.Permission.PermissionFilter) on controller BlogApi.Controllers.PermissionsController (BlogApi).
+2023-12-13 02:35:11.463 +07:00 [INF] Executing OkObjectResult, writing value of type 'BlogApi.Models.Response.BaseResponse'.
+2023-12-13 02:35:11.465 +07:00 [INF] Executed action BlogApi.Controllers.PermissionsController.GetPermissions (BlogApi) in 145.9292ms
+2023-12-13 02:35:11.465 +07:00 [INF] Executed endpoint 'BlogApi.Controllers.PermissionsController.GetPermissions (BlogApi)'
+2023-12-13 02:35:11.465 +07:00 [INF] HTTP GET /v1/Permissions responded 200 in 149.1448 ms
+2023-12-13 02:35:11.465 +07:00 [INF] Request finished HTTP/1.1 GET https://localhost:7170/v1/Permissions?ParentId=null&Page=1&PageSize=5 - - - 200 - application/json;+charset=utf-8 149.5243ms
+2023-12-13 02:37:55.946 +07:00 [INF] User profile is available. Using '/Users/kiennt/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2023-12-13 02:37:56.345 +07:00 [INF] Now listening on: https://localhost:7170
+2023-12-13 02:37:56.346 +07:00 [INF] Now listening on: http://localhost:5020
+2023-12-13 02:37:56.348 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-13 02:37:56.348 +07:00 [INF] Hosting environment: Development
+2023-12-13 02:37:56.348 +07:00 [INF] Content root path: /Users/kiennt/Documents/projects/blog/BlogApi
+2023-12-13 02:37:56.653 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:7170/swagger/index.html - -
+2023-12-13 02:37:56.830 +07:00 [INF] Request finished HTTP/1.1 GET https://localhost:7170/swagger/index.html - - - 200 - text/html;charset=utf-8 180.3612ms
+2023-12-13 02:37:57.050 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:7170/swagger/v1/swagger.json - -
+2023-12-13 02:37:57.221 +07:00 [INF] Request finished HTTP/1.1 GET https://localhost:7170/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 170.5095ms
+2023-12-13 02:38:00.108 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:7170/v1/Permissions?ParentId=null&Page=1&PageSize=5 - -
+2023-12-13 02:38:00.229 +07:00 [INF] Executing endpoint 'BlogApi.Controllers.PermissionsController.GetPermissions (BlogApi)'
+2023-12-13 02:38:00.261 +07:00 [INF] Route matched with {action = "GetPermissions", controller = "Permissions"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[BlogApi.Models.Response.BaseResponse]] GetPermissions(BlogApi.Models.Permission.PermissionFilter) on controller BlogApi.Controllers.PermissionsController (BlogApi).
+2023-12-13 02:38:00.410 +07:00 [INF] Executing ObjectResult, writing value of type 'BlogApi.Models.Response.BaseResponse'.
+2023-12-13 02:38:00.422 +07:00 [INF] Executed action BlogApi.Controllers.PermissionsController.GetPermissions (BlogApi) in 156.3516ms
+2023-12-13 02:38:00.425 +07:00 [INF] Executed endpoint 'BlogApi.Controllers.PermissionsController.GetPermissions (BlogApi)'
+2023-12-13 02:38:00.427 +07:00 [ERR] HTTP GET /v1/Permissions responded 500 in 313.4735 ms
+2023-12-13 02:38:00.428 +07:00 [INF] Request finished HTTP/1.1 GET https://localhost:7170/v1/Permissions?ParentId=null&Page=1&PageSize=5 - - - 500 - application/json;+charset=utf-8 319.0872ms
+2023-12-13 02:38:03.618 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:7170/v1/Permissions?ParentId=null&Page=1&PageSize=5 - -
+2023-12-13 02:38:03.621 +07:00 [INF] Executing endpoint 'BlogApi.Controllers.PermissionsController.GetPermissions (BlogApi)'
+2023-12-13 02:38:03.622 +07:00 [INF] Route matched with {action = "GetPermissions", controller = "Permissions"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[BlogApi.Models.Response.BaseResponse]] GetPermissions(BlogApi.Models.Permission.PermissionFilter) on controller BlogApi.Controllers.PermissionsController (BlogApi).
+2023-12-13 02:38:03.670 +07:00 [INF] Executing ObjectResult, writing value of type 'BlogApi.Models.Response.BaseResponse'.
+2023-12-13 02:38:03.671 +07:00 [INF] Executed action BlogApi.Controllers.PermissionsController.GetPermissions (BlogApi) in 49.0073ms
+2023-12-13 02:38:03.671 +07:00 [INF] Executed endpoint 'BlogApi.Controllers.PermissionsController.GetPermissions (BlogApi)'
+2023-12-13 02:38:03.671 +07:00 [ERR] HTTP GET /v1/Permissions responded 500 in 53.4570 ms
+2023-12-13 02:38:03.672 +07:00 [INF] Request finished HTTP/1.1 GET https://localhost:7170/v1/Permissions?ParentId=null&Page=1&PageSize=5 - - - 500 - application/json;+charset=utf-8 53.9467ms
+2023-12-13 02:38:25.126 +07:00 [INF] User profile is available. Using '/Users/kiennt/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2023-12-13 02:38:25.540 +07:00 [INF] Now listening on: https://localhost:7170
+2023-12-13 02:38:25.541 +07:00 [INF] Now listening on: http://localhost:5020
+2023-12-13 02:38:25.544 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-13 02:38:25.544 +07:00 [INF] Hosting environment: Development
+2023-12-13 02:38:25.544 +07:00 [INF] Content root path: /Users/kiennt/Documents/projects/blog/BlogApi
+2023-12-13 02:38:25.761 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:7170/swagger/index.html - -
+2023-12-13 02:38:25.937 +07:00 [INF] Request finished HTTP/1.1 GET https://localhost:7170/swagger/index.html - - - 200 - text/html;charset=utf-8 178.9386ms
+2023-12-13 02:38:26.158 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:7170/swagger/v1/swagger.json - -
+2023-12-13 02:38:26.330 +07:00 [INF] Request finished HTTP/1.1 GET https://localhost:7170/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 171.7297ms
+2023-12-13 02:38:29.140 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:7170/v1/Permissions?ParentId=null&Page=1&PageSize=5 - -
+2023-12-13 02:38:29.263 +07:00 [INF] Executing endpoint 'BlogApi.Controllers.PermissionsController.GetPermissions (BlogApi)'
+2023-12-13 02:38:29.294 +07:00 [INF] Route matched with {action = "GetPermissions", controller = "Permissions"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[BlogApi.Models.Response.BaseResponse]] GetPermissions(BlogApi.Models.Permission.PermissionFilter) on controller BlogApi.Controllers.PermissionsController (BlogApi).
+2023-12-13 02:38:29.523 +07:00 [INF] Executing OkObjectResult, writing value of type 'BlogApi.Models.Response.BaseResponse'.
+2023-12-13 02:38:29.555 +07:00 [INF] Executed action BlogApi.Controllers.PermissionsController.GetPermissions (BlogApi) in 256.9069ms
+2023-12-13 02:38:29.558 +07:00 [INF] Executed endpoint 'BlogApi.Controllers.PermissionsController.GetPermissions (BlogApi)'
+2023-12-13 02:38:29.562 +07:00 [INF] HTTP GET /v1/Permissions responded 200 in 417.1481 ms
+2023-12-13 02:38:29.565 +07:00 [INF] Request finished HTTP/1.1 GET https://localhost:7170/v1/Permissions?ParentId=null&Page=1&PageSize=5 - - - 200 - application/json;+charset=utf-8 424.1929ms
+2023-12-13 02:38:37.995 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:7170/v1/Permissions?ParentId=null&Page=4&PageSize=5 - -
+2023-12-13 02:38:37.999 +07:00 [INF] Executing endpoint 'BlogApi.Controllers.PermissionsController.GetPermissions (BlogApi)'
+2023-12-13 02:38:37.999 +07:00 [INF] Route matched with {action = "GetPermissions", controller = "Permissions"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[BlogApi.Models.Response.BaseResponse]] GetPermissions(BlogApi.Models.Permission.PermissionFilter) on controller BlogApi.Controllers.PermissionsController (BlogApi).
+2023-12-13 02:38:38.013 +07:00 [INF] Executing OkObjectResult, writing value of type 'BlogApi.Models.Response.BaseResponse'.
+2023-12-13 02:38:38.014 +07:00 [INF] Executed action BlogApi.Controllers.PermissionsController.GetPermissions (BlogApi) in 14.4086ms
+2023-12-13 02:38:38.014 +07:00 [INF] Executed endpoint 'BlogApi.Controllers.PermissionsController.GetPermissions (BlogApi)'
+2023-12-13 02:38:38.014 +07:00 [INF] HTTP GET /v1/Permissions responded 200 in 18.7824 ms
+2023-12-13 02:38:38.015 +07:00 [INF] Request finished HTTP/1.1 GET https://localhost:7170/v1/Permissions?ParentId=null&Page=4&PageSize=5 - - - 200 - application/json;+charset=utf-8 19.3271ms
+2023-12-13 02:38:44.572 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:7170/v1/Permissions?ParentId=123&Page=4&PageSize=5 - -
+2023-12-13 02:38:44.575 +07:00 [INF] Executing endpoint 'BlogApi.Controllers.PermissionsController.GetPermissions (BlogApi)'
+2023-12-13 02:38:44.576 +07:00 [INF] Route matched with {action = "GetPermissions", controller = "Permissions"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[BlogApi.Models.Response.BaseResponse]] GetPermissions(BlogApi.Models.Permission.PermissionFilter) on controller BlogApi.Controllers.PermissionsController (BlogApi).
+2023-12-13 02:38:44.740 +07:00 [INF] Executing ObjectResult, writing value of type 'BlogApi.Models.Response.BaseResponse'.
+2023-12-13 02:38:44.741 +07:00 [INF] Executed action BlogApi.Controllers.PermissionsController.GetPermissions (BlogApi) in 164.9837ms
+2023-12-13 02:38:44.741 +07:00 [INF] Executed endpoint 'BlogApi.Controllers.PermissionsController.GetPermissions (BlogApi)'
+2023-12-13 02:38:44.741 +07:00 [ERR] HTTP GET /v1/Permissions responded 500 in 168.3548 ms
+2023-12-13 02:38:44.741 +07:00 [INF] Request finished HTTP/1.1 GET https://localhost:7170/v1/Permissions?ParentId=123&Page=4&PageSize=5 - - - 500 - application/json;+charset=utf-8 168.7433ms
+2023-12-13 02:38:58.071 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:7170/v1/Permissions?Page=4&PageSize=5 - -
+2023-12-13 02:38:58.071 +07:00 [INF] Executing endpoint 'BlogApi.Controllers.PermissionsController.GetPermissions (BlogApi)'
+2023-12-13 02:38:58.071 +07:00 [INF] Route matched with {action = "GetPermissions", controller = "Permissions"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[BlogApi.Models.Response.BaseResponse]] GetPermissions(BlogApi.Models.Permission.PermissionFilter) on controller BlogApi.Controllers.PermissionsController (BlogApi).
+2023-12-13 02:38:58.222 +07:00 [INF] Executing OkObjectResult, writing value of type 'BlogApi.Models.Response.BaseResponse'.
+2023-12-13 02:38:58.248 +07:00 [INF] Executed action BlogApi.Controllers.PermissionsController.GetPermissions (BlogApi) in 176.4857ms
+2023-12-13 02:38:58.248 +07:00 [INF] Executed endpoint 'BlogApi.Controllers.PermissionsController.GetPermissions (BlogApi)'
+2023-12-13 02:38:58.248 +07:00 [INF] HTTP GET /v1/Permissions responded 200 in 177.1258 ms
+2023-12-13 02:38:58.249 +07:00 [INF] Request finished HTTP/1.1 GET https://localhost:7170/v1/Permissions?Page=4&PageSize=5 - - - 200 - application/json;+charset=utf-8 178.1149ms
+2023-12-13 02:39:16.257 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:7170/v1/Permissions?Name=Tao%20moi&Page=4&PageSize=5 - -
+2023-12-13 02:39:16.257 +07:00 [INF] Executing endpoint 'BlogApi.Controllers.PermissionsController.GetPermissions (BlogApi)'
+2023-12-13 02:39:16.257 +07:00 [INF] Route matched with {action = "GetPermissions", controller = "Permissions"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[BlogApi.Models.Response.BaseResponse]] GetPermissions(BlogApi.Models.Permission.PermissionFilter) on controller BlogApi.Controllers.PermissionsController (BlogApi).
+2023-12-13 02:39:16.335 +07:00 [INF] Executing OkObjectResult, writing value of type 'BlogApi.Models.Response.BaseResponse'.
+2023-12-13 02:39:16.335 +07:00 [INF] Executed action BlogApi.Controllers.PermissionsController.GetPermissions (BlogApi) in 77.5214ms
+2023-12-13 02:39:16.335 +07:00 [INF] Executed endpoint 'BlogApi.Controllers.PermissionsController.GetPermissions (BlogApi)'
+2023-12-13 02:39:16.335 +07:00 [INF] HTTP GET /v1/Permissions responded 200 in 78.0461 ms
+2023-12-13 02:39:16.335 +07:00 [INF] Request finished HTTP/1.1 GET https://localhost:7170/v1/Permissions?Name=Tao%20moi&Page=4&PageSize=5 - - - 200 - application/json;+charset=utf-8 78.4342ms
+2023-12-13 02:39:25.484 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:7170/v1/Permissions?Name=T%E1%BA%A1o%20m%E1%BB%9Bi&Page=4&PageSize=5 - -
+2023-12-13 02:39:25.484 +07:00 [INF] Executing endpoint 'BlogApi.Controllers.PermissionsController.GetPermissions (BlogApi)'
+2023-12-13 02:39:25.484 +07:00 [INF] Route matched with {action = "GetPermissions", controller = "Permissions"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[BlogApi.Models.Response.BaseResponse]] GetPermissions(BlogApi.Models.Permission.PermissionFilter) on controller BlogApi.Controllers.PermissionsController (BlogApi).
+2023-12-13 02:39:25.558 +07:00 [INF] Executing OkObjectResult, writing value of type 'BlogApi.Models.Response.BaseResponse'.
+2023-12-13 02:39:25.582 +07:00 [INF] Executed action BlogApi.Controllers.PermissionsController.GetPermissions (BlogApi) in 97.633ms
+2023-12-13 02:39:25.582 +07:00 [INF] Executed endpoint 'BlogApi.Controllers.PermissionsController.GetPermissions (BlogApi)'
+2023-12-13 02:39:25.582 +07:00 [INF] HTTP GET /v1/Permissions responded 200 in 98.2979 ms
+2023-12-13 02:39:25.583 +07:00 [INF] Request finished HTTP/1.1 GET https://localhost:7170/v1/Permissions?Name=T%E1%BA%A1o%20m%E1%BB%9Bi&Page=4&PageSize=5 - - - 200 - application/json;+charset=utf-8 98.7389ms
+2023-12-13 02:39:31.708 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:7170/v1/Permissions?Name=t%E1%BA%A1o%20m%E1%BB%9Bi&Page=4&PageSize=5 - -
+2023-12-13 02:39:31.708 +07:00 [INF] Executing endpoint 'BlogApi.Controllers.PermissionsController.GetPermissions (BlogApi)'
+2023-12-13 02:39:31.708 +07:00 [INF] Route matched with {action = "GetPermissions", controller = "Permissions"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[BlogApi.Models.Response.BaseResponse]] GetPermissions(BlogApi.Models.Permission.PermissionFilter) on controller BlogApi.Controllers.PermissionsController (BlogApi).
+2023-12-13 02:39:31.844 +07:00 [INF] Executing OkObjectResult, writing value of type 'BlogApi.Models.Response.BaseResponse'.
+2023-12-13 02:39:31.846 +07:00 [INF] Executed action BlogApi.Controllers.PermissionsController.GetPermissions (BlogApi) in 137.4395ms
+2023-12-13 02:39:31.846 +07:00 [INF] Executed endpoint 'BlogApi.Controllers.PermissionsController.GetPermissions (BlogApi)'
+2023-12-13 02:39:31.846 +07:00 [INF] HTTP GET /v1/Permissions responded 200 in 138.0076 ms
+2023-12-13 02:39:31.846 +07:00 [INF] Request finished HTTP/1.1 GET https://localhost:7170/v1/Permissions?Name=t%E1%BA%A1o%20m%E1%BB%9Bi&Page=4&PageSize=5 - - - 200 - application/json;+charset=utf-8 138.5024ms
+2023-12-13 02:39:39.432 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:7170/v1/Permissions?Name=vai%20tr%C3%B2&Page=4&PageSize=5 - -
+2023-12-13 02:39:39.432 +07:00 [INF] Executing endpoint 'BlogApi.Controllers.PermissionsController.GetPermissions (BlogApi)'
+2023-12-13 02:39:39.432 +07:00 [INF] Route matched with {action = "GetPermissions", controller = "Permissions"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[BlogApi.Models.Response.BaseResponse]] GetPermissions(BlogApi.Models.Permission.PermissionFilter) on controller BlogApi.Controllers.PermissionsController (BlogApi).
+2023-12-13 02:39:39.556 +07:00 [INF] Executing OkObjectResult, writing value of type 'BlogApi.Models.Response.BaseResponse'.
+2023-12-13 02:39:39.558 +07:00 [INF] Executed action BlogApi.Controllers.PermissionsController.GetPermissions (BlogApi) in 125.4554ms
+2023-12-13 02:39:39.558 +07:00 [INF] Executed endpoint 'BlogApi.Controllers.PermissionsController.GetPermissions (BlogApi)'
+2023-12-13 02:39:39.558 +07:00 [INF] HTTP GET /v1/Permissions responded 200 in 126.0749 ms
+2023-12-13 02:39:39.558 +07:00 [INF] Request finished HTTP/1.1 GET https://localhost:7170/v1/Permissions?Name=vai%20tr%C3%B2&Page=4&PageSize=5 - - - 200 - application/json;+charset=utf-8 126.4464ms
+2023-12-13 02:40:48.543 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:7170/v1/Permissions?Name=vai%20tr%C3%B2&Page=4&PageSize=5 - -
+2023-12-13 02:40:48.549 +07:00 [INF] Executing endpoint 'BlogApi.Controllers.PermissionsController.GetPermissions (BlogApi)'
+2023-12-13 02:40:48.549 +07:00 [INF] Route matched with {action = "GetPermissions", controller = "Permissions"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[BlogApi.Models.Response.BaseResponse]] GetPermissions(BlogApi.Models.Permission.PermissionFilter) on controller BlogApi.Controllers.PermissionsController (BlogApi).
+2023-12-13 02:41:27.470 +07:00 [INF] Executing OkObjectResult, writing value of type 'BlogApi.Models.Response.BaseResponse'.
+2023-12-13 02:41:27.470 +07:00 [INF] Executed action BlogApi.Controllers.PermissionsController.GetPermissions (BlogApi) in 38920.1701ms
+2023-12-13 02:41:27.470 +07:00 [INF] Executed endpoint 'BlogApi.Controllers.PermissionsController.GetPermissions (BlogApi)'
+2023-12-13 02:41:27.470 +07:00 [INF] HTTP GET /v1/Permissions responded 200 in 38923.6890 ms
+2023-12-13 02:41:27.470 +07:00 [INF] Request finished HTTP/1.1 GET https://localhost:7170/v1/Permissions?Name=vai%20tr%C3%B2&Page=4&PageSize=5 - - - 200 - application/json;+charset=utf-8 38927.3961ms
+2023-12-13 02:41:35.977 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:7170/v1/Permissions?Page=4&PageSize=5 - -
+2023-12-13 02:41:35.977 +07:00 [INF] Executing endpoint 'BlogApi.Controllers.PermissionsController.GetPermissions (BlogApi)'
+2023-12-13 02:41:35.977 +07:00 [INF] Route matched with {action = "GetPermissions", controller = "Permissions"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[BlogApi.Models.Response.BaseResponse]] GetPermissions(BlogApi.Models.Permission.PermissionFilter) on controller BlogApi.Controllers.PermissionsController (BlogApi).
+2023-12-13 02:41:36.087 +07:00 [INF] Executing OkObjectResult, writing value of type 'BlogApi.Models.Response.BaseResponse'.
+2023-12-13 02:41:36.111 +07:00 [INF] Executed action BlogApi.Controllers.PermissionsController.GetPermissions (BlogApi) in 133.9124ms
+2023-12-13 02:41:36.112 +07:00 [INF] Executed endpoint 'BlogApi.Controllers.PermissionsController.GetPermissions (BlogApi)'
+2023-12-13 02:41:36.112 +07:00 [INF] HTTP GET /v1/Permissions responded 200 in 134.5518 ms
+2023-12-13 02:41:36.112 +07:00 [INF] Request finished HTTP/1.1 GET https://localhost:7170/v1/Permissions?Page=4&PageSize=5 - - - 200 - application/json;+charset=utf-8 135.0502ms
+2023-12-13 02:41:36.244 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:7170/v1/Permissions?Page=4&PageSize=5 - -
+2023-12-13 02:41:36.245 +07:00 [INF] Executing endpoint 'BlogApi.Controllers.PermissionsController.GetPermissions (BlogApi)'
+2023-12-13 02:41:36.245 +07:00 [INF] Route matched with {action = "GetPermissions", controller = "Permissions"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[BlogApi.Models.Response.BaseResponse]] GetPermissions(BlogApi.Models.Permission.PermissionFilter) on controller BlogApi.Controllers.PermissionsController (BlogApi).
+2023-12-13 02:41:36.262 +07:00 [INF] Executing OkObjectResult, writing value of type 'BlogApi.Models.Response.BaseResponse'.
+2023-12-13 02:41:36.262 +07:00 [INF] Executed action BlogApi.Controllers.PermissionsController.GetPermissions (BlogApi) in 17.5886ms
+2023-12-13 02:41:36.263 +07:00 [INF] Executed endpoint 'BlogApi.Controllers.PermissionsController.GetPermissions (BlogApi)'
+2023-12-13 02:41:36.263 +07:00 [INF] HTTP GET /v1/Permissions responded 200 in 18.0802 ms
+2023-12-13 02:41:36.263 +07:00 [INF] Request finished HTTP/1.1 GET https://localhost:7170/v1/Permissions?Page=4&PageSize=5 - - - 200 - application/json;+charset=utf-8 18.3955ms
+2023-12-13 02:41:45.725 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:7170/v1/Permissions?Name=T%E1%BA%A1o%20m%E1%BB%9Bi%20nhi%E1%BB%81u%20vai%20tr%C3%B2&Page=4&PageSize=5 - -
+2023-12-13 02:41:45.726 +07:00 [INF] Executing endpoint 'BlogApi.Controllers.PermissionsController.GetPermissions (BlogApi)'
+2023-12-13 02:41:45.726 +07:00 [INF] Route matched with {action = "GetPermissions", controller = "Permissions"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[BlogApi.Models.Response.BaseResponse]] GetPermissions(BlogApi.Models.Permission.PermissionFilter) on controller BlogApi.Controllers.PermissionsController (BlogApi).
+2023-12-13 02:41:45.756 +07:00 [INF] Executing OkObjectResult, writing value of type 'BlogApi.Models.Response.BaseResponse'.
+2023-12-13 02:41:45.756 +07:00 [INF] Executed action BlogApi.Controllers.PermissionsController.GetPermissions (BlogApi) in 29.9532ms
+2023-12-13 02:41:45.756 +07:00 [INF] Executed endpoint 'BlogApi.Controllers.PermissionsController.GetPermissions (BlogApi)'
+2023-12-13 02:41:45.756 +07:00 [INF] HTTP GET /v1/Permissions responded 200 in 30.5892 ms
+2023-12-13 02:41:45.756 +07:00 [INF] Request finished HTTP/1.1 GET https://localhost:7170/v1/Permissions?Name=T%E1%BA%A1o%20m%E1%BB%9Bi%20nhi%E1%BB%81u%20vai%20tr%C3%B2&Page=4&PageSize=5 - - - 200 - application/json;+charset=utf-8 30.9401ms
+2023-12-13 02:41:50.668 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:7170/v1/Permissions?Name=T%E1%BA%A1o%20m%E1%BB%9Bi%20nhi%E1%BB%81u%20vai%20tr%C3%B2&Page=4&PageSize=5 - -
+2023-12-13 02:41:50.668 +07:00 [INF] Executing endpoint 'BlogApi.Controllers.PermissionsController.GetPermissions (BlogApi)'
+2023-12-13 02:41:50.668 +07:00 [INF] Route matched with {action = "GetPermissions", controller = "Permissions"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[BlogApi.Models.Response.BaseResponse]] GetPermissions(BlogApi.Models.Permission.PermissionFilter) on controller BlogApi.Controllers.PermissionsController (BlogApi).
+2023-12-13 02:41:50.696 +07:00 [INF] Executing OkObjectResult, writing value of type 'BlogApi.Models.Response.BaseResponse'.
+2023-12-13 02:41:50.719 +07:00 [INF] Executed action BlogApi.Controllers.PermissionsController.GetPermissions (BlogApi) in 50.8262ms
+2023-12-13 02:41:50.719 +07:00 [INF] Executed endpoint 'BlogApi.Controllers.PermissionsController.GetPermissions (BlogApi)'
+2023-12-13 02:41:50.719 +07:00 [INF] HTTP GET /v1/Permissions responded 200 in 51.5048 ms
+2023-12-13 02:41:50.720 +07:00 [INF] Request finished HTTP/1.1 GET https://localhost:7170/v1/Permissions?Name=T%E1%BA%A1o%20m%E1%BB%9Bi%20nhi%E1%BB%81u%20vai%20tr%C3%B2&Page=4&PageSize=5 - - - 200 - application/json;+charset=utf-8 51.9372ms
+2023-12-13 02:41:58.861 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:7170/v1/Permissions?Page=4&PageSize=5 - -
+2023-12-13 02:41:58.861 +07:00 [INF] Executing endpoint 'BlogApi.Controllers.PermissionsController.GetPermissions (BlogApi)'
+2023-12-13 02:41:58.861 +07:00 [INF] Route matched with {action = "GetPermissions", controller = "Permissions"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[BlogApi.Models.Response.BaseResponse]] GetPermissions(BlogApi.Models.Permission.PermissionFilter) on controller BlogApi.Controllers.PermissionsController (BlogApi).
+2023-12-13 02:41:58.910 +07:00 [INF] Executing OkObjectResult, writing value of type 'BlogApi.Models.Response.BaseResponse'.
+2023-12-13 02:41:58.935 +07:00 [INF] Executed action BlogApi.Controllers.PermissionsController.GetPermissions (BlogApi) in 73.4167ms
+2023-12-13 02:41:58.935 +07:00 [INF] Executed endpoint 'BlogApi.Controllers.PermissionsController.GetPermissions (BlogApi)'
+2023-12-13 02:41:58.935 +07:00 [INF] HTTP GET /v1/Permissions responded 200 in 74.0818 ms
+2023-12-13 02:41:58.935 +07:00 [INF] Request finished HTTP/1.1 GET https://localhost:7170/v1/Permissions?Page=4&PageSize=5 - - - 200 - application/json;+charset=utf-8 74.4674ms
+2023-12-13 02:43:44.951 +07:00 [INF] User profile is available. Using '/Users/kiennt/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2023-12-13 02:43:45.359 +07:00 [INF] Now listening on: https://localhost:7170
+2023-12-13 02:43:45.359 +07:00 [INF] Now listening on: http://localhost:5020
+2023-12-13 02:43:45.362 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-13 02:43:45.362 +07:00 [INF] Hosting environment: Development
+2023-12-13 02:43:45.362 +07:00 [INF] Content root path: /Users/kiennt/Documents/projects/blog/BlogApi
+2023-12-13 02:43:45.593 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:7170/swagger/index.html - -
+2023-12-13 02:43:45.770 +07:00 [INF] Request finished HTTP/1.1 GET https://localhost:7170/swagger/index.html - - - 200 - text/html;charset=utf-8 180.3035ms
+2023-12-13 02:43:45.997 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:7170/swagger/v1/swagger.json - -
+2023-12-13 02:43:46.170 +07:00 [INF] Request finished HTTP/1.1 GET https://localhost:7170/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 172.7372ms
+2023-12-13 02:43:56.210 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:7170/v1/Permissions?Page=4&PageSize=5 - -
+2023-12-13 02:43:56.340 +07:00 [INF] Executing endpoint 'BlogApi.Controllers.PermissionsController.GetPermissions (BlogApi)'
+2023-12-13 02:43:56.371 +07:00 [INF] Route matched with {action = "GetPermissions", controller = "Permissions"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[BlogApi.Models.Response.BaseResponse]] GetPermissions(BlogApi.Models.Permission.PermissionFilter) on controller BlogApi.Controllers.PermissionsController (BlogApi).
+2023-12-13 02:43:56.527 +07:00 [INF] Executing OkObjectResult, writing value of type 'BlogApi.Models.Response.BaseResponse'.
+2023-12-13 02:43:56.560 +07:00 [INF] Executed action BlogApi.Controllers.PermissionsController.GetPermissions (BlogApi) in 184.5491ms
+2023-12-13 02:43:56.563 +07:00 [INF] Executed endpoint 'BlogApi.Controllers.PermissionsController.GetPermissions (BlogApi)'
+2023-12-13 02:43:56.567 +07:00 [INF] HTTP GET /v1/Permissions responded 200 in 352.4849 ms
+2023-12-13 02:43:56.570 +07:00 [INF] Request finished HTTP/1.1 GET https://localhost:7170/v1/Permissions?Page=4&PageSize=5 - - - 200 - application/json;+charset=utf-8 359.5478ms
+2023-12-13 02:44:03.544 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:7170/v1/Permissions?Page=1&PageSize=5 - -
+2023-12-13 02:44:03.547 +07:00 [INF] Executing endpoint 'BlogApi.Controllers.PermissionsController.GetPermissions (BlogApi)'
+2023-12-13 02:44:03.548 +07:00 [INF] Route matched with {action = "GetPermissions", controller = "Permissions"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[BlogApi.Models.Response.BaseResponse]] GetPermissions(BlogApi.Models.Permission.PermissionFilter) on controller BlogApi.Controllers.PermissionsController (BlogApi).
+2023-12-13 02:44:03.566 +07:00 [INF] Executing OkObjectResult, writing value of type 'BlogApi.Models.Response.BaseResponse'.
+2023-12-13 02:44:03.567 +07:00 [INF] Executed action BlogApi.Controllers.PermissionsController.GetPermissions (BlogApi) in 18.7275ms
+2023-12-13 02:44:03.567 +07:00 [INF] Executed endpoint 'BlogApi.Controllers.PermissionsController.GetPermissions (BlogApi)'
+2023-12-13 02:44:03.567 +07:00 [INF] HTTP GET /v1/Permissions responded 200 in 23.3557 ms
+2023-12-13 02:44:03.567 +07:00 [INF] Request finished HTTP/1.1 GET https://localhost:7170/v1/Permissions?Page=1&PageSize=5 - - - 200 - application/json;+charset=utf-8 23.8626ms
+2023-12-13 02:44:39.670 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:7170/v1/Permissions?Page=1&PageSize=5 - -
+2023-12-13 02:44:39.679 +07:00 [INF] Executing endpoint 'BlogApi.Controllers.PermissionsController.GetPermissions (BlogApi)'
+2023-12-13 02:44:39.680 +07:00 [INF] Route matched with {action = "GetPermissions", controller = "Permissions"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[BlogApi.Models.Response.BaseResponse]] GetPermissions(BlogApi.Models.Permission.PermissionFilter) on controller BlogApi.Controllers.PermissionsController (BlogApi).
+2023-12-13 02:44:39.790 +07:00 [INF] Executing OkObjectResult, writing value of type 'BlogApi.Models.Response.BaseResponse'.
+2023-12-13 02:44:39.791 +07:00 [INF] Executed action BlogApi.Controllers.PermissionsController.GetPermissions (BlogApi) in 111.0196ms
+2023-12-13 02:44:39.791 +07:00 [INF] Executed endpoint 'BlogApi.Controllers.PermissionsController.GetPermissions (BlogApi)'
+2023-12-13 02:44:39.791 +07:00 [INF] HTTP GET /v1/Permissions responded 200 in 115.1846 ms
+2023-12-13 02:44:39.791 +07:00 [INF] Request finished HTTP/1.1 GET https://localhost:7170/v1/Permissions?Page=1&PageSize=5 - - - 200 - application/json;+charset=utf-8 124.3148ms
+2023-12-13 17:38:49.757 +07:00 [INF] User profile is available. Using '/Users/kiennt/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2023-12-13 17:38:50.055 +07:00 [INF] Now listening on: https://localhost:7170
+2023-12-13 17:38:50.055 +07:00 [INF] Now listening on: http://localhost:5020
+2023-12-13 17:38:50.057 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-13 17:38:50.058 +07:00 [INF] Hosting environment: Development
+2023-12-13 17:38:50.058 +07:00 [INF] Content root path: /Users/kiennt/Documents/projects/blog/BlogApi
+2023-12-13 17:38:50.353 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:7170/swagger/index.html - -
+2023-12-13 17:38:50.473 +07:00 [INF] Request finished HTTP/1.1 GET https://localhost:7170/swagger/index.html - - - 200 - text/html;charset=utf-8 121.4490ms
+2023-12-13 17:38:50.486 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:7170/swagger/swagger-ui-standalone-preset.js - -
+2023-12-13 17:38:50.488 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:7170/swagger/swagger-ui-bundle.js - -
+2023-12-13 17:38:50.508 +07:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2023-12-13 17:38:50.509 +07:00 [INF] Request finished HTTP/1.1 GET https://localhost:7170/swagger/swagger-ui-standalone-preset.js - - - 200 312163 text/javascript 22.8318ms
+2023-12-13 17:38:50.515 +07:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2023-12-13 17:38:50.515 +07:00 [INF] Request finished HTTP/1.1 GET https://localhost:7170/swagger/swagger-ui-bundle.js - - - 200 1061536 text/javascript 27.1354ms
+2023-12-13 17:38:50.728 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:7170/swagger/v1/swagger.json - -
+2023-12-13 17:38:50.855 +07:00 [INF] Request finished HTTP/1.1 GET https://localhost:7170/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 126.8430ms
+2023-12-13 17:38:55.728 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:7170/v1/Permissions - -
+2023-12-13 17:38:55.823 +07:00 [INF] Executing endpoint 'BlogApi.Controllers.PermissionsController.GetPermissions (BlogApi)'
+2023-12-13 17:38:55.846 +07:00 [INF] Route matched with {action = "GetPermissions", controller = "Permissions"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[BlogApi.Models.Response.BaseResponse]] GetPermissions(BlogApi.Models.Permission.PermissionFilter) on controller BlogApi.Controllers.PermissionsController (BlogApi).
+2023-12-13 17:38:56.014 +07:00 [INF] Executing OkObjectResult, writing value of type 'BlogApi.Models.Response.BaseResponse'.
+2023-12-13 17:38:56.038 +07:00 [INF] Executed action BlogApi.Controllers.PermissionsController.GetPermissions (BlogApi) in 188.0692ms
+2023-12-13 17:38:56.040 +07:00 [INF] Executed endpoint 'BlogApi.Controllers.PermissionsController.GetPermissions (BlogApi)'
+2023-12-13 17:38:56.043 +07:00 [INF] HTTP GET /v1/Permissions responded 200 in 311.7040 ms
+2023-12-13 17:38:56.045 +07:00 [INF] Request finished HTTP/1.1 GET https://localhost:7170/v1/Permissions - - - 200 - application/json;+charset=utf-8 315.9747ms
+2023-12-13 17:39:20.552 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:7170/v1/Permissions?Name=ng%C6%B0%E1%BB%9Di%20d%C3%B9ng - -
+2023-12-13 17:39:20.589 +07:00 [INF] Executing endpoint 'BlogApi.Controllers.PermissionsController.GetPermissions (BlogApi)'
+2023-12-13 17:39:20.590 +07:00 [INF] Route matched with {action = "GetPermissions", controller = "Permissions"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[BlogApi.Models.Response.BaseResponse]] GetPermissions(BlogApi.Models.Permission.PermissionFilter) on controller BlogApi.Controllers.PermissionsController (BlogApi).
+2023-12-13 17:41:00.220 +07:00 [INF] Executing OkObjectResult, writing value of type 'BlogApi.Models.Response.BaseResponse'.
+2023-12-13 17:41:00.221 +07:00 [INF] Executed action BlogApi.Controllers.PermissionsController.GetPermissions (BlogApi) in 99628.7923ms
+2023-12-13 17:41:00.221 +07:00 [INF] Executed endpoint 'BlogApi.Controllers.PermissionsController.GetPermissions (BlogApi)'
+2023-12-13 17:41:00.221 +07:00 [INF] HTTP GET /v1/Permissions responded 200 in 99665.2967 ms
+2023-12-13 17:41:00.221 +07:00 [INF] Request finished HTTP/1.1 GET https://localhost:7170/v1/Permissions?Name=ng%C6%B0%E1%BB%9Di%20d%C3%B9ng - - - 200 - application/json;+charset=utf-8 99669.5857ms
+2023-12-13 17:41:10.131 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:7170/v1/Permissions?Name=ng%C6%B0%E1%BB%9Di%20d%C3%B9ng&ParentId=null - -
+2023-12-13 17:41:10.134 +07:00 [INF] Executing endpoint 'BlogApi.Controllers.PermissionsController.GetPermissions (BlogApi)'
+2023-12-13 17:41:10.134 +07:00 [INF] Route matched with {action = "GetPermissions", controller = "Permissions"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[BlogApi.Models.Response.BaseResponse]] GetPermissions(BlogApi.Models.Permission.PermissionFilter) on controller BlogApi.Controllers.PermissionsController (BlogApi).
+2023-12-13 17:41:14.228 +07:00 [INF] Executing OkObjectResult, writing value of type 'BlogApi.Models.Response.BaseResponse'.
+2023-12-13 17:41:14.230 +07:00 [INF] Executed action BlogApi.Controllers.PermissionsController.GetPermissions (BlogApi) in 4096.2874ms
+2023-12-13 17:41:14.230 +07:00 [INF] Executed endpoint 'BlogApi.Controllers.PermissionsController.GetPermissions (BlogApi)'
+2023-12-13 17:41:14.231 +07:00 [INF] HTTP GET /v1/Permissions responded 200 in 4098.7424 ms
+2023-12-13 17:41:14.231 +07:00 [INF] Request finished HTTP/1.1 GET https://localhost:7170/v1/Permissions?Name=ng%C6%B0%E1%BB%9Di%20d%C3%B9ng&ParentId=null - - - 200 - application/json;+charset=utf-8 4099.1362ms
+2023-12-13 17:41:34.835 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:7170/v1/Permissions?Name=ng%C6%B0%E1%BB%9Di%20d%C3%B9ng&ParentId=null&Page=1&PageSize=2 - -
+2023-12-13 17:41:34.839 +07:00 [INF] Executing endpoint 'BlogApi.Controllers.PermissionsController.GetPermissions (BlogApi)'
+2023-12-13 17:41:34.839 +07:00 [INF] Route matched with {action = "GetPermissions", controller = "Permissions"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[BlogApi.Models.Response.BaseResponse]] GetPermissions(BlogApi.Models.Permission.PermissionFilter) on controller BlogApi.Controllers.PermissionsController (BlogApi).
+2023-12-13 17:41:34.858 +07:00 [INF] Executing OkObjectResult, writing value of type 'BlogApi.Models.Response.BaseResponse'.
+2023-12-13 17:41:34.859 +07:00 [INF] Executed action BlogApi.Controllers.PermissionsController.GetPermissions (BlogApi) in 19.1701ms
+2023-12-13 17:41:34.859 +07:00 [INF] Executed endpoint 'BlogApi.Controllers.PermissionsController.GetPermissions (BlogApi)'
+2023-12-13 17:41:34.859 +07:00 [INF] HTTP GET /v1/Permissions responded 200 in 19.6032 ms
+2023-12-13 17:41:34.859 +07:00 [INF] Request finished HTTP/1.1 GET https://localhost:7170/v1/Permissions?Name=ng%C6%B0%E1%BB%9Di%20d%C3%B9ng&ParentId=null&Page=1&PageSize=2 - - - 200 - application/json;+charset=utf-8 24.1040ms

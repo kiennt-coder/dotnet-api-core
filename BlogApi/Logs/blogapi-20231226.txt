@@ -1,0 +1,110 @@
+2023-12-26 23:41:41.898 +07:00 [INF] User profile is available. Using '/Users/kiennt/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2023-12-26 23:41:42.337 +07:00 [INF] Now listening on: https://localhost:7170
+2023-12-26 23:41:42.338 +07:00 [INF] Now listening on: http://localhost:5020
+2023-12-26 23:41:42.340 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-26 23:41:42.340 +07:00 [INF] Hosting environment: Development
+2023-12-26 23:41:42.340 +07:00 [INF] Content root path: /Users/kiennt/Documents/projects/blog/BlogApi
+2023-12-26 23:41:44.254 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:7170/swagger/index.html - -
+2023-12-26 23:41:44.469 +07:00 [INF] Request finished HTTP/1.1 GET https://localhost:7170/swagger/index.html - - - 200 - text/html;charset=utf-8 218.2603ms
+2023-12-26 23:41:44.507 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:7170/swagger/swagger-ui.css - -
+2023-12-26 23:41:44.593 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:7170/swagger/swagger-ui-bundle.js - -
+2023-12-26 23:41:44.660 +07:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2023-12-26 23:41:44.661 +07:00 [INF] Request finished HTTP/1.1 GET https://localhost:7170/swagger/swagger-ui.css - - - 200 144929 text/css 153.7598ms
+2023-12-26 23:41:44.662 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:7170/swagger/swagger-ui-standalone-preset.js - -
+2023-12-26 23:41:44.665 +07:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2023-12-26 23:41:44.666 +07:00 [INF] Request finished HTTP/1.1 GET https://localhost:7170/swagger/swagger-ui-standalone-preset.js - - - 200 312163 text/javascript 4.1111ms
+2023-12-26 23:41:44.683 +07:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2023-12-26 23:41:44.684 +07:00 [INF] Request finished HTTP/1.1 GET https://localhost:7170/swagger/swagger-ui-bundle.js - - - 200 1061536 text/javascript 90.9119ms
+2023-12-26 23:41:45.048 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:7170/swagger/v1/swagger.json - -
+2023-12-26 23:41:45.221 +07:00 [INF] Request finished HTTP/1.1 GET https://localhost:7170/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 173.4744ms
+2023-12-26 23:42:25.283 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:7170/v1/Users - -
+2023-12-26 23:42:25.702 +07:00 [INF] Executing endpoint 'BlogApi.Controllers.UsersController.GetUsers (BlogApi)'
+2023-12-26 23:42:25.736 +07:00 [INF] Route matched with {action = "GetUsers", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[BlogApi.Models.Response.BaseResponse]] GetUsers(BlogApi.Models.User.UserParameter) on controller BlogApi.Controllers.UsersController (BlogApi).
+2023-12-26 23:42:25.959 +07:00 [INF] Executing ObjectResult, writing value of type 'BlogApi.Models.Response.BaseResponse'.
+2023-12-26 23:42:25.973 +07:00 [INF] Executed action BlogApi.Controllers.UsersController.GetUsers (BlogApi) in 231.8908ms
+2023-12-26 23:42:25.976 +07:00 [INF] Executed endpoint 'BlogApi.Controllers.UsersController.GetUsers (BlogApi)'
+2023-12-26 23:42:25.979 +07:00 [ERR] HTTP GET /v1/Users responded 500 in 692.0726 ms
+2023-12-26 23:42:25.980 +07:00 [INF] Request finished HTTP/1.1 GET https://localhost:7170/v1/Users - - - 500 - application/json;+charset=utf-8 696.9899ms
+2023-12-26 23:43:14.361 +07:00 [INF] User profile is available. Using '/Users/kiennt/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2023-12-26 23:43:14.836 +07:00 [INF] Now listening on: https://localhost:7170
+2023-12-26 23:43:14.837 +07:00 [INF] Now listening on: http://localhost:5020
+2023-12-26 23:43:14.839 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-26 23:43:14.839 +07:00 [INF] Hosting environment: Development
+2023-12-26 23:43:14.839 +07:00 [INF] Content root path: /Users/kiennt/Documents/projects/blog/BlogApi
+2023-12-26 23:43:15.053 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:7170/swagger/index.html - -
+2023-12-26 23:43:15.233 +07:00 [INF] Request finished HTTP/1.1 GET https://localhost:7170/swagger/index.html - - - 200 - text/html;charset=utf-8 182.4220ms
+2023-12-26 23:43:15.610 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:7170/swagger/v1/swagger.json - -
+2023-12-26 23:43:15.787 +07:00 [INF] Request finished HTTP/1.1 GET https://localhost:7170/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 176.3600ms
+2023-12-26 23:43:22.014 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:7170/v1/Users - -
+2023-12-26 23:43:22.332 +07:00 [INF] Executing endpoint 'BlogApi.Controllers.UsersController.GetUsers (BlogApi)'
+2023-12-26 23:43:22.367 +07:00 [INF] Route matched with {action = "GetUsers", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[BlogApi.Models.Response.BaseResponse]] GetUsers(BlogApi.Models.User.UserParameter) on controller BlogApi.Controllers.UsersController (BlogApi).
+2023-12-26 23:43:22.592 +07:00 [INF] The output type to the last stage was expected to be BlogApi.Models.User.UserModel, but was MongoDB.Driver.AggregateCountResult. (Parameter 'stages')
+2023-12-26 23:43:22.601 +07:00 [INF] Executing ObjectResult, writing value of type 'BlogApi.Models.Response.BaseResponse'.
+2023-12-26 23:43:22.613 +07:00 [INF] Executed action BlogApi.Controllers.UsersController.GetUsers (BlogApi) in 241.8337ms
+2023-12-26 23:43:22.616 +07:00 [INF] Executed endpoint 'BlogApi.Controllers.UsersController.GetUsers (BlogApi)'
+2023-12-26 23:43:22.618 +07:00 [ERR] HTTP GET /v1/Users responded 500 in 599.5384 ms
+2023-12-26 23:43:22.620 +07:00 [INF] Request finished HTTP/1.1 GET https://localhost:7170/v1/Users - - - 500 - application/json;+charset=utf-8 605.1220ms
+2023-12-26 23:45:29.824 +07:00 [INF] User profile is available. Using '/Users/kiennt/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2023-12-26 23:45:30.231 +07:00 [INF] Now listening on: https://localhost:7170
+2023-12-26 23:45:30.232 +07:00 [INF] Now listening on: http://localhost:5020
+2023-12-26 23:45:30.234 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-26 23:45:30.253 +07:00 [INF] Hosting environment: Development
+2023-12-26 23:45:30.253 +07:00 [INF] Content root path: /Users/kiennt/Documents/projects/blog/BlogApi
+2023-12-26 23:45:30.449 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:7170/swagger/index.html - -
+2023-12-26 23:45:30.624 +07:00 [INF] Request finished HTTP/1.1 GET https://localhost:7170/swagger/index.html - - - 200 - text/html;charset=utf-8 177.7252ms
+2023-12-26 23:45:30.863 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:7170/swagger/v1/swagger.json - -
+2023-12-26 23:45:31.037 +07:00 [INF] Request finished HTTP/1.1 GET https://localhost:7170/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 174.9201ms
+2023-12-26 23:45:34.541 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:7170/v1/Users - -
+2023-12-26 23:45:34.851 +07:00 [INF] Executing endpoint 'BlogApi.Controllers.UsersController.GetUsers (BlogApi)'
+2023-12-26 23:45:34.884 +07:00 [INF] Route matched with {action = "GetUsers", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[BlogApi.Models.Response.BaseResponse]] GetUsers(BlogApi.Models.User.UserParameter) on controller BlogApi.Controllers.UsersController (BlogApi).
+2023-12-26 23:45:35.200 +07:00 [INF] Executing OkObjectResult, writing value of type 'BlogApi.Models.Response.BaseResponse'.
+2023-12-26 23:45:35.237 +07:00 [INF] Executed action BlogApi.Controllers.UsersController.GetUsers (BlogApi) in 348.4923ms
+2023-12-26 23:45:35.240 +07:00 [INF] Executed endpoint 'BlogApi.Controllers.UsersController.GetUsers (BlogApi)'
+2023-12-26 23:45:35.244 +07:00 [INF] HTTP GET /v1/Users responded 200 in 697.9265 ms
+2023-12-26 23:45:35.247 +07:00 [INF] Request finished HTTP/1.1 GET https://localhost:7170/v1/Users - - - 200 - application/json;+charset=utf-8 704.9827ms
+2023-12-26 23:48:02.064 +07:00 [INF] User profile is available. Using '/Users/kiennt/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2023-12-26 23:48:02.501 +07:00 [INF] Now listening on: https://localhost:7170
+2023-12-26 23:48:02.502 +07:00 [INF] Now listening on: http://localhost:5020
+2023-12-26 23:48:02.505 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-26 23:48:02.505 +07:00 [INF] Hosting environment: Development
+2023-12-26 23:48:02.505 +07:00 [INF] Content root path: /Users/kiennt/Documents/projects/blog/BlogApi
+2023-12-26 23:48:02.710 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:7170/swagger/index.html - -
+2023-12-26 23:48:02.889 +07:00 [INF] Request finished HTTP/1.1 GET https://localhost:7170/swagger/index.html - - - 200 - text/html;charset=utf-8 180.9413ms
+2023-12-26 23:48:03.125 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:7170/swagger/v1/swagger.json - -
+2023-12-26 23:48:03.300 +07:00 [INF] Request finished HTTP/1.1 GET https://localhost:7170/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 174.4536ms
+2023-12-26 23:48:06.181 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:7170/v1/Users - -
+2023-12-26 23:48:06.518 +07:00 [INF] Executing endpoint 'BlogApi.Controllers.UsersController.GetUsers (BlogApi)'
+2023-12-26 23:48:06.549 +07:00 [INF] Route matched with {action = "GetUsers", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[BlogApi.Models.Response.BaseResponse]] GetUsers(BlogApi.Models.User.UserParameter) on controller BlogApi.Controllers.UsersController (BlogApi).
+2023-12-26 23:48:06.860 +07:00 [INF] Executing OkObjectResult, writing value of type 'BlogApi.Models.Response.BaseResponse'.
+2023-12-26 23:48:06.911 +07:00 [INF] Executed action BlogApi.Controllers.UsersController.GetUsers (BlogApi) in 357.6872ms
+2023-12-26 23:48:06.915 +07:00 [INF] Executed endpoint 'BlogApi.Controllers.UsersController.GetUsers (BlogApi)'
+2023-12-26 23:48:06.918 +07:00 [INF] HTTP GET /v1/Users responded 200 in 732.3607 ms
+2023-12-26 23:48:06.921 +07:00 [INF] Request finished HTTP/1.1 GET https://localhost:7170/v1/Users - - - 200 - application/json;+charset=utf-8 739.2094ms
+2023-12-26 23:57:51.550 +07:00 [INF] User profile is available. Using '/Users/kiennt/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2023-12-26 23:57:51.963 +07:00 [INF] Now listening on: https://localhost:7170
+2023-12-26 23:57:51.964 +07:00 [INF] Now listening on: http://localhost:5020
+2023-12-26 23:57:51.966 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-26 23:57:51.966 +07:00 [INF] Hosting environment: Development
+2023-12-26 23:57:51.966 +07:00 [INF] Content root path: /Users/kiennt/Documents/projects/blog/BlogApi
+2023-12-26 23:57:52.169 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:7170/swagger/index.html - -
+2023-12-26 23:57:52.339 +07:00 [INF] Request finished HTTP/1.1 GET https://localhost:7170/swagger/index.html - - - 200 - text/html;charset=utf-8 171.7618ms
+2023-12-26 23:57:52.577 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:7170/swagger/v1/swagger.json - -
+2023-12-26 23:57:52.751 +07:00 [INF] Request finished HTTP/1.1 GET https://localhost:7170/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 173.4940ms
+2023-12-26 23:57:55.716 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:7170/v1/Users - -
+2023-12-26 23:57:56.020 +07:00 [INF] Executing endpoint 'BlogApi.Controllers.UsersController.GetUsers (BlogApi)'
+2023-12-26 23:57:56.053 +07:00 [INF] Route matched with {action = "GetUsers", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[BlogApi.Models.Response.BaseResponse]] GetUsers(BlogApi.Models.User.UserParameter) on controller BlogApi.Controllers.UsersController (BlogApi).
+2023-12-26 23:57:56.421 +07:00 [INF] Executing OkObjectResult, writing value of type 'BlogApi.Models.Response.BaseResponse'.
+2023-12-26 23:57:56.458 +07:00 [INF] Executed action BlogApi.Controllers.UsersController.GetUsers (BlogApi) in 400.0223ms
+2023-12-26 23:57:56.461 +07:00 [INF] Executed endpoint 'BlogApi.Controllers.UsersController.GetUsers (BlogApi)'
+2023-12-26 23:57:56.465 +07:00 [INF] HTTP GET /v1/Users responded 200 in 743.4713 ms
+2023-12-26 23:57:56.467 +07:00 [INF] Request finished HTTP/1.1 GET https://localhost:7170/v1/Users - - - 200 - application/json;+charset=utf-8 750.6313ms
+2023-12-26 23:59:56.539 +07:00 [INF] User profile is available. Using '/Users/kiennt/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2023-12-26 23:59:56.928 +07:00 [INF] Now listening on: https://localhost:7170
+2023-12-26 23:59:56.929 +07:00 [INF] Now listening on: http://localhost:5020
+2023-12-26 23:59:56.931 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-26 23:59:56.932 +07:00 [INF] Hosting environment: Development
+2023-12-26 23:59:56.932 +07:00 [INF] Content root path: /Users/kiennt/Documents/projects/blog/BlogApi
+2023-12-26 23:59:57.131 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:7170/swagger/index.html - -
+2023-12-26 23:59:57.302 +07:00 [INF] Request finished HTTP/1.1 GET https://localhost:7170/swagger/index.html - - - 200 - text/html;charset=utf-8 173.2390ms
+2023-12-26 23:59:57.536 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:7170/swagger/v1/swagger.json - -
+2023-12-26 23:59:57.708 +07:00 [INF] Request finished HTTP/1.1 GET https://localhost:7170/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 172.4506ms
